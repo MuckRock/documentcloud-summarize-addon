@@ -1,4 +1,4 @@
-name: Run Add-On
+name: Summarize
 on:
   workflow_dispatch:
     inputs:
