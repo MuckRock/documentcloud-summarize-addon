@@ -1,6 +1,6 @@
 name: Run Add-On
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       timeout:
         default: 5
