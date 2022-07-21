@@ -1,6 +1,19 @@
 name: Run Add-On
-runs-on: self-hosted
 on:
+  workflow_dispatch:
+    inputs:
+      timeout:
+        default: "5"
+        required: false
+        type: number
+      python-version:
+        default: "3.10"
+        required: false
+        type: string
+      git-commit:
+        default: false
+        required: false
+        type: boolean
   workflow_call:
     inputs:
       timeout:
