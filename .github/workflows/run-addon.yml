@@ -23,7 +23,7 @@ jobs:
         with:
           path: |
             ./nltk_data/corpora/stopwords/english
-          restore-keys: nltk_data
+          key: nltk_data
       - name: Install nltk_data on cache miss
         run: |
           NLTK_DATA=nltk_data python -m nltk.downloader punkt
