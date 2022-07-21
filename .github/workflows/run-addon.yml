@@ -1,68 +1,7 @@
-name: Summarize
-on:
-  workflow_dispatch:
-    inputs:
-      timeout:
-        default: "5"
-        required: false
-        type: number
-      python-version:
-        default: "3.10"
-        required: false
-        type: string
-      git-commit:
-        default: false
-        required: false
-        type: boolean
-  workflow_call:
-    inputs:
-      timeout:
-        default: 5
-        required: false
-        type: number
-      python-version:
-        default: "3.10"
-        required: false
-        type: string
-      git-commit:
-        default: false
-        required: false
-        type: boolean
-    secrets:
-      dc_username:
-        required: false
-      dc_password:
-        required: false
-      token:
-        required: false
+
+name: Run Add-On
+on: repository_dispatch
 
 jobs:
   Run-Add-On:
-    runs-on: ubuntu-latest
-    timeout-minutes: ${{ inputs.timeout }}
-    steps:
-      - name: ${{ github.event.client_payload.id }}
-        run: echo run identifier ${{ github.event.client_payload.id }}
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: ${{ inputs.python-version }}
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Run add-on
-        run: python main.py '${{ toJSON(github.event.client_payload) }}'
-        env:
-          DC_USERNAME: ${{ secrets.dc_username }}
-          DC_PASSWORD: ${{ secrets.dc_password }}
-          TOKEN: ${{ secrets.token }}
-      - name: Commit and push if it changed
-        if: inputs.git-commit
-        run: |-
-          git config user.name "Automated"
-          git config user.email "actions@users.noreply.github.com"
-          git add -A
-          timestamp=$(date -u)
-          git commit -m "Latest data: ${timestamp}" || exit 0
-          git push
+    uses: MuckRock/documentcloud-addon-workflows/.github/workflows/run-addon.yml@v1
