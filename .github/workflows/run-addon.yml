@@ -1,6 +1,55 @@
 
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@jimkang
+MuckRock /
+documentcloud-addon-workflows
+Public
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+
+    Insights
+
+documentcloud-addon-workflows/.github/workflows/run-addon.yml
+@mitchelljkotler
+mitchelljkotler typo
+Latest commit a141303 on May 3
+History
+1 contributor
+55 lines (53 sloc) 1.53 KB
+
 name: Run Add-On
-on: repository_dispatch
+on:
+  workflow_call:
+    inputs:
+      timeout:
+        default: 5
+        required: false
+        type: number
+      python-version:
+        default: "3.10"
+        required: false
+        type: string
+      git-commit:
+        default: false
+        required: false
+        type: boolean
+    secrets:
+      dc_username:
+        required: false
+      dc_password:
+        required: false
+      token:
+        required: false
 
 jobs:
   Run-Add-On:
@@ -32,3 +81,20 @@ jobs:
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
           git push
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+You have unread notifications
