@@ -13,11 +13,18 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: ${{ inputs.python-version }}
-      - name: Install dependencies
+      - name: Restore cached pip dependencies
+        id: restore-pip-cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.pythonLocation }}
+          key: pip-cache
+      - name: Install dependencies on cache miss
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Cache nltk_data
+        if: steps.restore-pip-cache.outputs.cache-hit != 'true'
+      - name: Restore cached nltk_data
         id: restore-nltk-cache
         uses: actions/cache@v3
         with:
