@@ -5,7 +5,7 @@ on: repository_dispatch
 jobs:
   Run-Add-On:
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ inputs.timeout }}
+    timeout-minutes: 2
     steps:
       - name: ${{ github.event.client_payload.id }}
         run: echo run identifier ${{ github.event.client_payload.id }}
