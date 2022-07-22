@@ -55,12 +55,10 @@ def summarize(doc):
 class Summarize(AddOn):
     """A document summarization Add-On for DocumentCloud."""
 
-    def add_summary(self, document):
-        with open(f"{document.asset_url}.txt", "w+") as file_:
-            summary = summarize(document)
-            file_.write(summary)
-            self.set_message(f"Summarized {document.asset_url}.")
-            self.upload_file(file_)
+    def add_summary(self, document, file_):
+        summary = summarize(document)
+        file_.write(f"{document.title}\n{document.canonical_url}\n\n{summary}\n\n")
+        self.set_message(f"Summarized {document.canonical_url}.")
 
     def main(self):
         """The main add-on functionality goes here."""
@@ -73,8 +71,10 @@ class Summarize(AddOn):
             else:
                 raise Exception("No documents found to summarize.")
 
-        for document in doc_list:
-            self.add_summary(document)
+        with open("summaries.txt", "w+") as file_:
+          for document in doc_list:
+              self.add_summary(document, file_)
+          self.upload_file(file_)
 
         self.set_message("Summarization complete.")
         self.send_mail(
