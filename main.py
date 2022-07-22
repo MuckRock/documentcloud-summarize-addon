@@ -67,10 +67,11 @@ class Summarize(AddOn):
         self.set_message("Starting summarization.")
 
         doc_list = self.documents
-        if not doc_list and self.query:
-            doc_list = self.client.documents.search(self.query)[:3]
-        else:
-            raise Exception("No documents found to summarize.")
+        if not doc_list:
+            if self.query:
+                doc_list = self.client.documents.search(self.query)[:3]
+            else:
+                raise Exception("No documents found to summarize.")
 
         for document in documents:
             add_summary(document)
