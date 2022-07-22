@@ -67,7 +67,7 @@ class HelloWorld(AddOn):
             if self.documents:
                 for document in self.client.documents.list(id__in=self.documents):
                     document.annotations.create(f"Hello {name}!", 0)
-                    summary = summarize(documents)
+                    summary = summarize(document)
                     file_.write(summary)
                     self.set_message("Summarized a doc.")
             elif self.query:
