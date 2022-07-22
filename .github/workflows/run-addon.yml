@@ -22,7 +22,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: |
-            ~/nltk_data/corpora/stopwords/english
+            ~/nltk_data
           key: nltk_data
       - name: Install nltk_data on cache miss
         run: |
