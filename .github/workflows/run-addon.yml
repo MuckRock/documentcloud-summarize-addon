@@ -35,6 +35,7 @@ jobs:
           DC_USERNAME: ${{ secrets.dc_username }}
           DC_PASSWORD: ${{ secrets.dc_password }}
           TOKEN: ${{ secrets.token }}
+          NLTK_DATA: ~/nltk_data
       - name: Commit and push if it changed
         if: inputs.git-commit
         run: |-
