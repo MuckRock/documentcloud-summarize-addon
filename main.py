@@ -52,11 +52,6 @@ def summarize(doc):
 
   return summary
 
-user = os.environ['USER']
-password = os.environ['PASSWORD']
-client = DocumentCloud(user, password)
-
-
 class HelloWorld(AddOn):
     """An example Add-On for DocumentCloud."""
 
