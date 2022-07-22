@@ -22,12 +22,12 @@ jobs:
         uses: actions/cache@v3
         with:
           path: |
-            nltk_data/corpora/stopwords/english
+            ~/nltk_data/corpora/stopwords/english
           key: nltk_data
       - name: Install nltk_data on cache miss
         run: |
-          NLTK_DATA=nltk_data python -m nltk.downloader punkt
-          NLTK_DATA=nltk_data python -m nltk.downloader stopwords
+          NLTK_DATA=~/nltk_data python -m nltk.downloader punkt
+          NLTK_DATA=~/nltk_data python -m nltk.downloader stopwords
         if: steps.restore-nltk-cache.outputs.cache-hit != 'true'
       - name: Run add-on
         run: python main.py '${{ toJSON(github.event.client_payload) }}'
