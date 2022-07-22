@@ -66,7 +66,7 @@ class Summarize(AddOn):
         """The main add-on functionality goes here."""
         self.set_message("Starting summarization.")
 
-        doc_list = self.documents
+        doc_list = self.documents.list(id__in=self.documents):
         if not doc_list:
             if self.query:
                 doc_list = self.client.documents.search(self.query)[:3]
