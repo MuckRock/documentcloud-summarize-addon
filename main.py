@@ -52,35 +52,32 @@ def summarize(doc):
 
   return summary
 
-class HelloWorld(AddOn):
-    """An example Add-On for DocumentCloud."""
+class Summarize(AddOn):
+    """A document summarization Add-On for DocumentCloud."""
+
+    def add_summary(self, document):
+        with open(f"{document.asset_url}.txt", "w+") as file_:
+            summary = summarize(document)
+            file_.write(summary)
+            self.set_message(f"Summarized {document.asset_url}.")
+            self.upload_file(file_)
 
     def main(self):
         """The main add-on functionality goes here."""
-        # fetch your add-on specific data
-        name = self.data.get("name", "world")
+        self.set_message("Starting summarization.")
 
-        self.set_message("Hello World start!")
+        doc_list = self.documents
+        if not doc_list and self.query:
+            doc_list = self.client.documents.search(self.query)[:3]
+        else:
+            raise Exception("No documents found to summarize.")
 
-        with open("hello.txt", "w+") as file_:
-            # add a hello note to the first page of each selected document
-            if self.documents:
-                for document in self.client.documents.list(id__in=self.documents):
-                    document.annotations.create(f"Hello {name}!", 0)
-                    summary = summarize(document)
-                    file_.write(summary)
-                    self.set_message("Summarized a doc.")
-            elif self.query:
-                documents = self.client.documents.search(self.query)[:3]
-                for document in documents:
-                    document.annotations.create(f"Hello {name}!", 0)
+        for document in documents:
+            add_summary(document)
 
-            file_.write("Hello world!")
-            self.upload_file(file_)
-
-        self.set_message("Hello World end!")
-        self.send_mail("Hello World!", "We finished!")
-
+        self.set_message("Summarization complete.")
+        self.send_mail(
+          "Summarize", f"We summarized: {", ".join([doc.title for doc in doc_list}])")
 
 if __name__ == "__main__":
-    HelloWorld().main()
+    Summarize().main()
