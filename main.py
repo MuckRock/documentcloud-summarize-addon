@@ -77,7 +77,7 @@ class Summarize(AddOn):
 
         self.set_message("Summarization complete.")
         self.send_mail(
-          "Summarize", f"We summarized: {", ".join([doc.title for doc in doc_list}])")
+          "Summarize", f"We summarized: {", ".join([doc.title for doc in doc_list])}")
 
 if __name__ == "__main__":
     Summarize().main()
