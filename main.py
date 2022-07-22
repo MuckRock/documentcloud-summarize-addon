@@ -73,7 +73,7 @@ class Summarize(AddOn):
             else:
                 raise Exception("No documents found to summarize.")
 
-        for document in documents:
+        for document in doc_list:
             add_summary(document)
 
         self.set_message("Summarization complete.")
