@@ -74,7 +74,7 @@ class Summarize(AddOn):
                 raise Exception("No documents found to summarize.")
 
         for document in doc_list:
-            add_summary(document)
+            self.add_summary(document)
 
         self.set_message("Summarization complete.")
         self.send_mail(
