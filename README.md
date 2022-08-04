@@ -222,3 +222,12 @@ function to use.  The following are the top level keys in the object.
 * `id` - A UUID to uniquely identify this Add-On run.  It allows DocumentCloud
   to identify the run, as well as allowing the run to send back progress,
   status message and file updates.
+
+# Testing
+
+Here's how you can test this add-on locally.
+
+- Set up a venv: `python3.9 -m venv venv` then `source venv/bin/activate`.
+- Install `pytest`: `pip install -U pytest`.
+- Install the production dependencies: `pip install -r requirements.txt`.
+- Run the test: `pytest -s`.
