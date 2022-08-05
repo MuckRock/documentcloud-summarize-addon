@@ -60,7 +60,7 @@ def summarize(text, max_sent_length = 30):
     sent.replace("\n", " ").replace("  ", " ").strip() for sent in summary_sentences
   ]
   summary_sentences = [
-    "- " + sent + "\n" for sent in summary_sentences
+    "• " + sent + "\n" for sent in summary_sentences
   ]
   summary = ' '.join(summary_sentences)
 
