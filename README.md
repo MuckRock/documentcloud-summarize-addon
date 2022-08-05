@@ -1,4 +1,3 @@
-
 # DocumentCloud Add-On Example
 
 This repository contains an example Add-On for DocumentCloud.  It is designed
@@ -231,4 +230,3 @@ Here's how you can test this add-on locally.
 - Install `pytest`: `pip install -U pytest`.
 - Install the production dependencies: `pip install -r requirements.txt`.
 - Run the tests: `pytest -s`.
-- Run just the unit tests: `pytest -s tests/test_unit.py`.
