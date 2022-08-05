@@ -84,7 +84,7 @@ class Summarize(AddOn):
         self.set_message(f"Summarized {document.canonical_url}.")
         return summary
 
-    def main(self, doc_limit = 3):
+    def main(self, doc_limit = 100):
         """The main add-on functionality goes here."""
         self.set_message("Starting summarization.")
 
