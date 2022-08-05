@@ -11,6 +11,7 @@ from documentcloud.addon import AddOn
 import os
 import heapq
 import re
+from collections import defaultdict
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -28,16 +29,14 @@ alphanumeric_re = re.compile("\w+")
 def summarize(text, max_sent_length = 30):
   print("Calculating word frequencies.")
   word_frequencies = {}
-  word_counts = {}
+  word_counts = defaultdict(int)
   max_count = 1
 
   for word in nltk.word_tokenize(text):
     word = word.lower()
     if word not in stopwords and alphanumeric_re.match(word):
-      if word in word_counts:
-        word_counts[word] += 1
-      else:
-        word_counts[word] = 1
+      word_counts[word] += 1
+
       if word_counts[word] > max_count:
         max_count = word_counts[word]
         #print(f"{word}: {max_count}")
@@ -48,7 +47,7 @@ def summarize(text, max_sent_length = 30):
   print("Scoring sentences.")
   sentence_list = nltk.sent_tokenize(text)
 
-  sentence_scores = {}
+  sentence_scores = defaultdict(int)
   for sent in sentence_list:
     approx_word_count = len(sent.split(' '))
     # TODO: Filter syntactically invalid sentences.
@@ -56,10 +55,7 @@ def summarize(text, max_sent_length = 30):
       continue
     for word in nltk.word_tokenize(sent.lower()):
       if word in word_frequencies:
-        if sent in sentence_scores:
-          sentence_scores[sent] = sentence_scores[sent] + word_frequencies[word]
-        else:
-          sentence_scores[sent] = word_frequencies[word]
+        sentence_scores[sent] = sentence_scores[sent] + word_frequencies[word]
 
   summary_sentences = heapq.nlargest(5, sentence_scores, key=sentence_scores.get)
   summary_sentences = [
