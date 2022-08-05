@@ -1,10 +1,8 @@
 from main import summarize
 import sys
+import os
 
-example_texts = [
-  "example-doc-text.txt",
-  "short-legal-doc.txt"
-]
+example_dir = "test/example-docs"
 
 def test_summarize():
     # Hack to avoid the pytest -s switch getting picked up
@@ -12,8 +10,8 @@ def test_summarize():
     if sys.argv[1] == "-s":
       del sys.argv[1]
 
-    for filename in example_texts:
-      with open("test/fixtures/" + filename) as f:
+    for filename in os.listdir(example_dir):
+      with open(os.path.join(example_dir, filename)) as f:
         text = f.read()
         summary = summarize(text)
         print(summary)

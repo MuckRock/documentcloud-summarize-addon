@@ -10,6 +10,7 @@ DocumentCloud using the standard API
 from documentcloud.addon import AddOn
 import os
 import heapq
+import re
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -19,6 +20,8 @@ print('NLTK_DATA', os.environ['NLTK_DATA'])
 import nltk
 
 stopwords = nltk.corpus.stopwords.words('english')
+
+alphanumeric_re = re.compile("\w+")
 
 # https://stackabuse.com/text-summarization-with-nltk-in-python/
 # https://towardsdatascience.com/simple-text-summarization-in-python-bdf58bfee77f
@@ -30,13 +33,14 @@ def summarize(text, max_sent_length = 30):
 
   for word in nltk.word_tokenize(text):
     word = word.lower()
-    if word not in stopwords:
+    if word not in stopwords and alphanumeric_re.match(word):
       if word in word_counts:
         word_counts[word] += 1
       else:
         word_counts[word] = 1
       if word_counts[word] > max_count:
         max_count = word_counts[word]
+        #print(f"{word}: {max_count}")
 
   for word in word_counts:
     word_frequencies[word] = (word_counts[word]/max_count)
