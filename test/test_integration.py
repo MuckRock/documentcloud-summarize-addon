@@ -7,7 +7,7 @@ def test_summarize():
     # by the add-on when it looks at argv.
     if sys.argv[1] == "-s":
       del sys.argv[1]
-    #print(f"argv: {sys.argv}")
+    print(f"argv: {sys.argv}")
 
     summarize = Summarize()
     summarize.main(1)

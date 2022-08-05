@@ -17,15 +17,15 @@ print('NLTK_DATA', os.environ['NLTK_DATA'])
 # .env needs to be loaded before importing nltk so that it knows
 # where to look for data.
 import nltk
+from heapq import nlargest
 
 stopwords = nltk.corpus.stopwords.words('english')
 
 # https://stackabuse.com/text-summarization-with-nltk-in-python/
-def summarize(doc):
-  sentence_list = nltk.sent_tokenize(doc.full_text)
-
+def summarize(text):
+  print("Calculating word frequencies.")
   word_frequencies = {}
-  for word in nltk.word_tokenize(doc.full_text):
+  for word in nltk.word_tokenize(text):
     if word not in stopwords:
       if word not in word_frequencies.keys():
         word_frequencies[word] = 1
@@ -36,6 +36,9 @@ def summarize(doc):
 
   for word in word_frequencies.keys():
     word_frequencies[word] = (word_frequencies[word]/maximum_frequency)
+
+  print("Scoring sentences.")
+  sentence_list = nltk.sent_tokenize(text)
 
   sentence_scores = {}
   for sent in sentence_list:
@@ -50,6 +53,8 @@ def summarize(doc):
   summary_sentences = heapq.nlargest(7, sentence_scores, key=sentence_scores.get)
   summary = ' '.join(summary_sentences)
 
+  print("Summary assembled.")
+
   return summary
 
 class Summarize(AddOn):
@@ -57,7 +62,7 @@ class Summarize(AddOn):
 
     def add_summary(self, document, file_):
         print(f"Summarizing: {document.title}\n{document.canonical_url}\n\n")
-        summary = summarize(document)
+        summary = summarize(document.full_text)
         file_.write(f"{document.title}\n{document.canonical_url}\n\n{summary}\n\n")
         self.set_message(f"Summarized {document.canonical_url}.")
         return summary
