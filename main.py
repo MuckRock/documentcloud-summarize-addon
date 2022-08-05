@@ -9,48 +9,59 @@ DocumentCloud using the standard API
 
 from documentcloud.addon import AddOn
 import os
-from dotenv import load_dotenv
 import heapq
+from dotenv import load_dotenv
 
 load_dotenv()
 print('NLTK_DATA', os.environ['NLTK_DATA'])
 # .env needs to be loaded before importing nltk so that it knows
 # where to look for data.
 import nltk
-from heapq import nlargest
 
 stopwords = nltk.corpus.stopwords.words('english')
 
 # https://stackabuse.com/text-summarization-with-nltk-in-python/
-def summarize(text):
+# https://towardsdatascience.com/simple-text-summarization-in-python-bdf58bfee77f
+def summarize(text, max_sent_length = 30):
   print("Calculating word frequencies.")
   word_frequencies = {}
+  word_counts = {}
+  max_count = 1
+
   for word in nltk.word_tokenize(text):
+    word = word.lower()
     if word not in stopwords:
-      if word not in word_frequencies.keys():
-        word_frequencies[word] = 1
+      if word in word_counts:
+        word_counts[word] += 1
       else:
-        word_frequencies[word] += 1
+        word_counts[word] = 1
+      if word_counts[word] > max_count:
+        max_count = word_counts[word]
 
-  maximum_frequency = max(word_frequencies.values())
-
-  for word in word_frequencies.keys():
-    word_frequencies[word] = (word_frequencies[word]/maximum_frequency)
+  for word in word_counts:
+    word_frequencies[word] = (word_counts[word]/max_count)
 
   print("Scoring sentences.")
   sentence_list = nltk.sent_tokenize(text)
 
   sentence_scores = {}
   for sent in sentence_list:
+    if len(sent.split(' ')) > max_sent_length:
+      continue
     for word in nltk.word_tokenize(sent.lower()):
-      if word in word_frequencies.keys():
-        if len(sent.split(' ')) < 30:
-          if sent not in sentence_scores.keys():
-            sentence_scores[sent] = word_frequencies[word]
-          else:
-            sentence_scores[sent] += word_frequencies[word]
+      if word in word_frequencies:
+        if sent in sentence_scores:
+          sentence_scores[sent] = sentence_scores[sent] + word_frequencies[word]
+        else:
+          sentence_scores[sent] = word_frequencies[word]
 
-  summary_sentences = heapq.nlargest(7, sentence_scores, key=sentence_scores.get)
+  summary_sentences = heapq.nlargest(5, sentence_scores, key=sentence_scores.get)
+  summary_sentences = [
+    sent.replace("\n", " ").replace("  ", " ").strip() for sent in summary_sentences
+  ]
+  summary_sentences = [
+    "- " + sent + "\n" for sent in summary_sentences
+  ]
   summary = ' '.join(summary_sentences)
 
   print("Summary assembled.")
