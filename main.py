@@ -50,7 +50,9 @@ def summarize(text, max_sent_length = 30):
 
   sentence_scores = {}
   for sent in sentence_list:
-    if len(sent.split(' ')) > max_sent_length:
+    approx_word_count = len(sent.split(' '))
+    # TODO: Filter syntactically invalid sentences.
+    if approx_word_count > max_sent_length or approx_word_count < 2:
       continue
     for word in nltk.word_tokenize(sent.lower()):
       if word in word_frequencies:
