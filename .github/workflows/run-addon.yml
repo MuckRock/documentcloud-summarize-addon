@@ -4,4 +4,43 @@ on: repository_dispatch
 
 jobs:
   Run-Add-On:
-    uses: MuckRock/documentcloud-addon-workflows/.github/workflows/run-addon.yml@v1
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: ${{ github.event.client_payload.id }}
+        run: echo run identifier ${{ github.event.client_payload.id }}
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+          cache: pip
+      - run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Restore cached nltk_data
+        id: restore-nltk-cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/nltk_data
+          key: nltk_data
+      - name: Install nltk_data on cache miss
+        run: |
+          NLTK_DATA=~/nltk_data python -m nltk.downloader punkt
+          NLTK_DATA=~/nltk_data python -m nltk.downloader stopwords
+        if: steps.restore-nltk-cache.outputs.cache-hit != 'true'
+      - name: Run add-on
+        run: python main.py '${{ toJSON(github.event.client_payload) }}'
+        env:
+          DC_USERNAME: ${{ secrets.dc_username }}
+          DC_PASSWORD: ${{ secrets.dc_password }}
+          TOKEN: ${{ secrets.token }}
+          NLTK_DATA: ~/nltk_data
+      - name: Commit and push if it changed
+        if: inputs.git-commit
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push

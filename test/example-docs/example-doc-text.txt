@@ -1,0 +1,1755 @@
+
+ 
+ 
+       
+       
+ 
+ 
+ 
+ 
+ 
+FACTORS  AFFECTING  EFFORTS  TO  LIMIT  
+PAYMENTS  TO  AIG  COUNTERPARTIES 
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+SIGTARP-10-003 
+NOVEMBER 17, 2009 
+ 
+ 
+    
+SIGTARP 
+Office of the Special Inspector General 
+for the Troubled Asset  Relief Program 
+November 17, 2009  
+ 
+FACTORS AFFECTING EFFORTS TO LIMIT PAYMENTS TO AIG 
+COUNTERPARTIES 
+ 
+What SIGTARP Found 
+In the fall of 2008, the Federal Reserve and Treasury faced several key decisions 
+about the future of AIG. After attempts to find private-sector financing failed, 
+they chose to provide assistance to AIG rather than allow the company to file for 
+bankruptcy. FRBNY officials believed that an AIG failure would pose 
+considerable risk to the entire financial system and would have significantly 
+intensified an already severe financial crisis. FRBNY was concerned about the 
+effect of an AIG bankruptcy on key sectors of the market, such as retirement 
+accounts and the credit markets.  FRBNY adopted in substantial part the 
+economic terms of a draft term sheet under consideration by a consortium of 
+private banks, the terms of which included a very high interest rate.  When it 
+became apparent that AIG’s liquidity crisis would continue despite FRBNY 
+financing and that a further downgrade was coming, to avoid such a downgrade 
+the Federal Reserve and Treasury decided to create a special purpose vehicle, 
+called Maiden Lane III, that bought the underlying collateral of a portion of 
+AIG’s credit default swaps from a number of AIG’s counterparties. Terminating 
+these credit default swaps in this way prevented further collateral calls and eased 
+AIG’s liquidity pressures. 
+ 
+After limited efforts to negotiate concessions from the counterparties failed, 
+FRBNY decided to pay AIG’s counterparties at what was effectively face or 
+“par value” — the fair market value of the counterparty assets plus the collateral 
+payments they had already received — for the collateralized debt obligations 
+underlying AIGFP’s credit default swap portfolio. FRBNY was confronted with 
+a number of factors that it believed limited its ability to negotiate reductions in 
+payments effectively, including a perceived lack of leverage over the 
+counterparties because the threat of an AIG bankruptcy had already been 
+removed by FRBNY’s previous assistance to AIG. On March 15, 2009, after 
+significant public and Congressional pressure, AIG, after consultation with the 
+Federal Reserve, publicly disclosed the identities of the counterparties.  FRBNY 
+officials state that they believe they will recoup the loan they made to Maiden 
+Lane III over time. As of September 30, 2009, the current fair market value of 
+the Maiden Lane III portfolio is $23.5 billion versus a loan balance of $19.3 
+billion. 
+ 
+Conclusions and Lessons Learned 
+SIGTARP concludes that: (1) the original terms of federal assistance to AIG, 
+including the high interest rate it adopted from the private bank’s initial term 
+sheet, inadequately addressed AIG’s long term liquidity concerns, thus requiring 
+further Government support; (2) FRBNY’s negotiating strategy to pursue 
+concessions from counterparties offered little opportunity for success, even in 
+light of the willingness of one counterparty to agree to concessions; (3) the 
+structure and effect of FRBNY’s assistance to AIG, both initially through loans 
+to AIG, and through asset purchases in connection with Maiden Lane III 
+effectively transferred tens of billions of dollars of cash from the Government to 
+AIG’s counterparties, even though senior policy makers contend that assistance 
+to AIG’s counterparties was not a relevant consideration in fashioning the 
+assistance to AIG; and (4) while FRBNY may eventually be made whole on its 
+loan to Maiden Lane III, it is difficult to assess the true costs of the Federal 
+Reserve’s actions until there is more clarity as to AIG’s ability to repay all of its 
+assistance from the Government.  SIGTARP also draws lessons that should be 
+learned regarding the importance of transparency and the enormous impact that 
+ratings agencies had on the AIG bailout. 
+ 
+Summary of Report: SIGTARP-10-003 
+ 
+Why SIGTARP Did This Study 
+In September 2008, American International 
+Group (“AIG”), was on the brink of collapse, 
+unable to access credit in the private markets and 
+bleeding cash. On September 16, 2008, the 
+Federal Reserve Bank of New York (“FRBNY”), 
+pursuant to the authorization of the Board of 
+Governors of the Federal Reserve System 
+(“Federal Reserve Board”, and, collectively with 
+FRBNY, “Federal Reserve”) provided AIG with 
+an $85 billion loan. On November 10, 2008, 
+Federal Reserve and Department of the Treasury 
+(“Treasury”) announced the restructuring of the 
+Government’s financial support to AIG. As part 
+of this restructuring, Federal Reserve Board 
+authorized FRBNY to lend up to $30 billion to 
+Maiden Lane III, a newly formed limited liability 
+company.  Pursuant to this authorization, 
+FRBNY lent $24.3 billion to Maiden Lane III, 
+which, in combination with a $5 billion equity 
+investment from AIG, was used to fund the 
+purchase of assets from counterparties of 
+American International Group Financial Products 
+(“AIGFP”) having a fair market value of about 
+$27.1 billion. In exchange for payment and being 
+permitted to retain $35 billion in collateral 
+payments (effectively being paid par or face 
+value), the counterparties agreed to terminate 
+their credit default swap contracts—insurance-
+like contracts intended to protect the underlying 
+assets—with AIGFP. 
+ 
+In light of the extent of the U.S. government’s 
+assistance to AIG, numerous members of 
+Congress asked SIGTARP to review the 
+counterparty transactions.  This report addresses 
+(1) the decision-making processes leading up to 
+the creation of Maiden Lane III, (2) why AIG’s 
+counterparties were paid at par value, and (3) 
+AIG’s current exposure to credit default swaps 
+outside Maiden Lane III. 
+ 
+SIGTARP interviewed officials and reviewed 
+documentation from Federal Reserve regarding 
+efforts to negotiate concessions from the 
+counterparties, as well as the rationale to pay 
+counterparties at par. SIGTARP also met with 
+officials of two of AIG’s counterparties regarding 
+termination of the credit default swaps. 
+SIGTARP also interviewed officials and obtained 
+information from AIG. Our work was performed 
+in accordance with generally accepted 
+government auditing standards. 
+Special Inspector General for the Troubled Asset Relief Program 
+
+ 
+Table of Contents 
+Introduction 1 
+Key Decisions That Led to Creation of Maiden Lane III 6 
+FRBNY Decided to Compensate Counterparties Effectively at Par Value 16 
+Remaining AIG Credit Default Swap Exposure 26 
+Conclusions and Lessons Learned 29 
+Management Comments 32 
+Appendices 
+A.  Scope and Methodology 33 
+B.  Acronyms  35 
+C.  Audit Team Members  36 
+D.  Management Comments from Federal Reserve  37 
+E.  Management Comments from Treasury 41 
+  
+ 
+ 
+ 
+ 
+  
+    
+Special Inspector General for the Troubled Asset Relief Program 
+ 
+ 
+ 
+Factors Affecting Efforts To Limit Payments to 
+AIG Counterparties 
+ 
+SIGTARP REPORT 10-003   November 17, 2009             
+Introduction 
+In September 2008, multiple U.S. financial institutions had failed or were on the brink of failure 
+as a result of an escalating crisis in the financial markets.  This ultimately led to enactment of the 
+Emergency Economic Stabilization Act of 2008 (“EESA”), which provided the Department of 
+the Treasury (“Treasury”) with $700 billion to aid financial institutions under the Troubled Asset 
+Relief Program (“TARP”).  One of the companies that received the greatest assistance under 
+TARP, and even greater assistance from the Federal Reserve Bank of New York (“FRBNY”), 
+pursuant to the authorization of the Board of Governors of the Federal Reserve System (“Federal 
+Reserve Board”, and, collectively with FRBNY, “Federal Reserve”), was the insurance 
+conglomerate American International Group (“AIG”).  Beginning in 2007, AIG began 
+experiencing a significant drain on its finances when, among other things, the company began 
+paying increasing amounts of collateral1 to counterparty institutions that had purchased 
+insurance-like contracts called credit default swaps from AIG’s subsidiary, AIG Financial 
+Products (“AIGFP”).2 
+ 
+By September 2008, bankruptcy loomed for AIG, in part because AIG was unlikely to be able to 
+raise the capital needed to meet additional calls for large collateral payments in the case of an 
+anticipated downgrade in its credit rating by credit rating agencies.3  On the afternoon of 
+September 15, 2008, the three largest credit rating agencies—Standard and Poor’s Financial 
+Services, Moody’s Investors Service, Inc., and Fitch Ratings Ltd.—downgraded AIG.  On 
+September 16, 2008, because of concerns that an AIG bankruptcy could cause systemic risk to 
+the entire financial system and the American retirement system, the Federal Reserve Board, with 
+the support of Treasury, authorized FRBNY to lend up to $85 billion to the firm under Section 
+                                                 
+1 Collateral generally means the property or assets that a borrower offers a lender in order to secure a loan or other 
+obligation to pay.    
+2 A credit default swap is an insurance-like contract in which the seller receives a series of payments from the buyer 
+in return for agreeing to make a payment to the buyer if a particular credit event outlined in the contract occurs—for 
+example, if a particular bond or loan  goes into default or its credit rating is downgraded. 
+3 Credit rating agencies are companies that provide investors with analyses and assessments of credit risk for a 
+particular company or security.  Credit ratings provide individual and institutional investors with information that 
+assists them in determining whether issuers of debt obligations and fixed income securities will be able to meet their 
+obligations with respect to those securities. Credit default swap contracts will often reference credit ratings in 
+determining whether a credit default swap party needs to post collateral and how much.  In addition, credit default 
+swap contracts will also frequently provide that, as the market value of a particular bond declines, the seller may 
+have to post collateral to the buyer in the amount of the decrease in value. 
+1 
+ 
+ 
+13(3) of the Federal Reserve Act.4  This would be the first of several infusions of capital and 
+loans to AIG, first by the Federal Reserve and then by Treasury. 
+ 
+Despite this initial Government assistance, AIG’s financial difficulties continued, and there were 
+concerns that a further downgrade was forthcoming.  Additional downgrades, among other 
+things, could trigger requirements for AIG to make additional collateral payments (referred to as 
+“posting collateral”) to AIG’s counterparties. The downgrades could thus exacerbate the liquidity 
+drain and the payments to swap counterparties. To help prevent further downgrades of AIG’s 
+credit rating that could lead to a disorderly bankruptcy with potentially destabilizing effects for 
+the U.S. economy, in November 2008, the Federal Reserve and Treasury announced a 
+restructuring of their official assistance.  Among other measures, the Federal Reserve Board 
+authorized FRBNY to create a special purpose vehicle (“SPV”)5 called Maiden Lane III and to 
+lend it up to $30 billion to buy collateralized debt obligations (“CDOs”) underlying the credit 
+default swaps from AIG’s counterparties.6  In connection with this purchase, AIG’s 
+counterparties agreed to terminate the associated swaps with AIG in return for retaining 
+collateral they had already received.  This eliminated any future need for AIG to post additional 
+collateral or make future payments on the credit default swaps related to the CDOs purchased by 
+Maiden Lane III.  The combination of the two components of the transaction equaled effectively 
+the par (or face) value of the credit default swaps.  Once these payments became publicly known, 
+questions were raised about the propriety of paying the counterparties the equivalent of par value 
+because the market value of the underlying CDOs had dropped precipitously and because some 
+counterparties were already recipients of Treasury funding under TARP and the beneficiaries of 
+other federal bailout programs.  Likewise, there were questions whether these counterparty 
+payments may also effectively have been paid using Government funding as a “backdoor 
+bailout” of these counterparties.  
+Background 
+AIG is a global organization doing business in more than 130 countries and jurisdictions.  In 
+2007, it was ranked the largest life insurer and the second largest property/casualty insurer by 
+                                                 
+4 Section 13(3) of the Federal Reserve Act authorizes the Federal Reserve Board to make secured loans to 
+individuals, partnerships, or corporations in "unusual and exigent circumstances" and when the borrower is "unable 
+to secure adequate credit accommodations from other banking institutions." This authority, added to the Federal 
+Reserve Act in 1932, was intended to give the Federal Reserve the flexibility to respond to emergency conditions. It 
+was amended in 1991 to allow the Federal Reserve to lend directly to securities firms during financial crises. 
+5 A special purpose vehicle is an off-balance sheet legal entity that holds transferred assets that are theoretically 
+beyond the reach of the entities providing the assets. 
+6 The Federal Reserve had earlier created two other SPVs, Maiden Lane I and Maiden Lane II, named after the 
+downtown Manhattan street on which FRBNY’s offices are located.  In March 2008, FRBNY and JPMorgan Chase 
+& Co. entered into an arrangement related to the financing provided by the FRBNY to facilitate the merger of 
+JPMorgan Chase and the Bear Stearns Companies Inc. by moving approximately $30 billion of Bear Stearns assets 
+into Maiden Lane, LLC (“Maiden Lane I").  On November 10, 2008, the Federal Reserve Board and Treasury 
+announced the restructuring of the Government’s financial support to AIG in order to facilitate its ability to 
+complete its restructuring process. As part of this restructuring, the Federal Reserve Board authorized FRBNY to 
+lend up to $22.5 billion to a newly formed Delaware limited liability company, Maiden Lane II LLC (“Maiden Lane 
+II”), to fund the purchase of residential mortgage-backed securities from the securities lending portfolio of several 
+regulated U.S. insurance subsidiaries of AIG.  This was done to resolve liquidity pressures on AIG arising from 
+losses on its securities lending program. 
+2 
+ 
+ 
+premiums written in the United States.7  AIG offers a broad spectrum of insurance and asset 
+management services.  AIG’s 116,000 employees work in four principal business units:  
+ 
+• Financial Services  
+• Asset Management 
+• Life Insurance & Retirement Services 
+• General Insurance 
+ 
+AIGFP, AIG’s Financial Products subsidiary, offered a portfolio of products that included credit 
+default swaps.  Credit default swaps are insurance-like instruments that AIGFP issued to 
+counterparty buyers such as financial institutions and investors.  Under a credit default swap, 
+AIG would receive a series of payments from the counterparties in return for AIG agreeing to 
+make a payment to the counterparties if a particular defined credit event occurred with respect to 
+an underlying security (for example, if the credit rating on a security is downgraded or the 
+security goes into default).  Credit default swaps are often used to hedge against a loss in value 
+of asset-backed securities.8  AIGFP sold credit default swaps that offered loss protection on 
+assets such as multi-sector CDOs.  CDOs are financial instruments that entitle the buyer to some 
+portion of cash flows from a portfolio of assets, which may include bundles of bonds, loans, 
+mortgage-backed securities, or even other CDOs.9  A multi-sector CDO is a CDO backed by a 
+combination of corporate bonds, loans, mortgages, or asset-backed securities.   
+ 
+Under the terms of AIGFP’s credit default swap contracts, the counterparties purchasing the 
+credit default swaps paid AIG regular insurance-like premiums and were entitled to require 
+AIGFP to post collateral when certain events occurred relating to the underlying CDOs, 
+including a decline in the market value of the CDO.10  In addition, if the credit rating on the 
+underlying CDOs were downgraded, AIGFP could also be required to post collateral.11  The 
+credit default swap contracts also included collateral posting provisions that provided that certain 
+events related to AIG would also trigger an obligation for AIGFP to pay the counterparties cash 
+collateral as evidence of AIGFP’s ability to pay the counterparty in the event of a default.  For 
+example, a common provision provided that, in the event AIG’s credit rating was downgraded, 
+                                                 
+7 AIG is supervised in the United States by a host of state insurance regulators.  AIG’s holding company is 
+supervised by the Office of Thrift Supervision.   
+8 Asset-backed securities are tradable securities backed by a pool of loans, leases or other cash-flow producing 
+assets.  Mortgage-backed securities are a type of asset-backed security representing claims to the cash flows from 
+pools of mortgage loans. Mortgage loans are purchased from banks, mortgage companies, and other originators and 
+then assembled into pools by a governmental, quasi-governmental, or private entity. The entity then issues securities 
+that represent claims on the principal and interest payments made by borrowers on the loans in the pool, a process 
+known as securitization. 
+9 The CDO can be split into different slices or “tranches” of securities that receive the cash flows from the 
+underlying debt securities in varying priority. The senior tranche is typically highly rated; it is ranked first in the 
+priority of payments of the tranches. The mezzanine tranche generally refers to the tranches rated lower than the 
+senior tranche.  The equity tranche is the residual cash flow produced by the CDO collateral that remains after 
+expenses and senior and mezzanine tranches interest are paid.  
+10 It is important to note that the credit default swap contract is not actually tied to a security, but instead references 
+it. For this reason, the security involved in the transaction is called the "reference entity." A contract can reference a 
+single credit event or multiple credit events. 
+11 For more information about AIG’s credit default swaps, including the terms of the contracts, see AIG’s 2008 
+Annual Report, Form 10-K, Item 7. 
+3 
+ 
+ 
+AIGFP would have to post cash collateral to ensure payment.  The amount of cash collateral 
+AIGFP was required to post differed for each event and was calculated based on AIGFP’s credit 
+rating, the rating of the underlying security, the market value of the underlying security, and 
+other terms set forth in the swap contract. 
+ 
+Although credit default swaps are sometimes referred to as insurance-like contracts, they are not 
+technically considered insurance, and, unlike insurance contracts, credit default swaps are not 
+regulated.  As a result, AIGFP was not required to hold reserves to cover losses or other claims 
+as it would if it was selling insurance policies.  AIGFP was thus able to sell swaps on $72 billion 
+worth of CDOs to counterparties without holding reserves that a regulated insurance company 
+would be required to maintain if it had written an equivalent amount of insurance coverage.12  
+Counterparties assumed that AIG, which was a highly rated company at the time it wrote the 
+swaps, would be able to pay any claims on the swaps that might occur as required by the 
+contracts. 
+ 
+Beginning in the third quarter of 2007 and continuing through 2008, AIG’s financial condition 
+deteriorated, causing a decline in market confidence that, in turn, triggered downgrades of AIG's 
+credit rating.  At the same time, the market value of the CDOs protected by AIGFP’s credit 
+default swaps declined.  As a result, AIGFP was required to post collateral under the terms of its 
+credit default swap contracts, typically the difference between the market value of the underlying 
+CDO and its par value.  By late summer 2008, however, AIG did not have nearly enough 
+liquidity to post the required collateral and was on the verge of defaulting on its obligations to its 
+counterparties, which would likely have forced AIG into bankruptcy.  In response to the possible 
+systemic implications and the potential for significant adverse effects on the economy if AIG 
+failed, on September 16, 2008, the Federal Reserve Board, with the support of Treasury, 
+authorized FRBNY to lend up to $85 billion to assist AIG in meeting its obligations and to 
+facilitate the orderly sale of some of its businesses.  
+  
+As AIG continued to experience problems in the fall of 2008, AIG received further government 
+assistance.  In November 2008, Treasury purchased $40 billion of newly issued AIG preferred 
+shares under TARP’s Systemically Significant Failing Institutions program. These funds went 
+directly to FRBNY to pay back a portion of the funds previously provided to AIG by FRBNY 
+and permitted FRBNY to reduce the total amount available under the credit facility from $85 
+billion to $60 billion. 
+ 
+At the same time, the Federal Reserve Board announced a number of other measures intended to 
+put AIG on sounder financial footing.  These included authorizing FRBNY to restructure the 
+terms of its credit facility to AIG and to create, and lend to, an SPV called Maiden Lane II that 
+was designed to resolve liquidity pressures stemming from AIG’s securities lending programs. 
+ 
+                                                 
+12 Although credit default swaps are subject to anti-fraud and similar provisions of the federal securities laws, these 
+instruments are not considered securities or regulated as such.  In 2000, the Commodity Futures Modernization Act 
+(“CFMA”) excluded credit default swaps from the definition of "security" under the Securities Act of 1933 and the 
+Securities Exchange Act of 1934 and barred the regulation of credit default swaps and other derivatives.  State 
+regulation of credit default swaps is also limited; the CFMA barred most state regulation of credit default swaps.  
+There is currently proposed Congressional legislation that would specify that credit default swaps fall within the 
+definition of a security and should be regulated as such. 
+4 
+ 
+ 
+5 
+ 
+                                                
+The Federal Reserve Board further authorized FRBNY to create, and lend up to $30 billion to, 
+Maiden Lane III to buy the underlying CDOs from AIG’s counterparties.  These purchases were 
+part of a transaction in which the counterparties, in exchange for agreeing to terminate their 
+credit default swap contracts, would be allowed to retain collateral previously posted by AIG.   
+Pursuant to this Federal Reserve Board authorization, Maiden Lane III was funded with $24.3 
+billion from FRBNY in the form of a senior loan and a $5 billion equity investment from AIG.  
+Maiden Lane III paid the fair market value of the multi-sector CDOs, or $29.6 billion, in 
+exchange for receiving CDOs with an approximate face value of $62.1 billion.  Of the fair 
+market value amount paid by Maiden Lane III, $27.1 was paid to counterparties and $2.5 billion 
+was paid to AIGFP as an adjustment payment to reflect overcollateralization.  In simultaneous 
+transactions, the counterparties were allowed to keep the $35 billion in collateral that had been 
+posted by AIG prior to the transaction in exchange for tearing up the associated credit default 
+swap contracts.  That collateral was funded in part by the original $85 billion line of credit 
+advanced by FRBNY.  As a result of combining the fair market value purchase of the CDOs and 
+the retention of collateral postings already received from AIG, AIG’s counterparties received 
+$62.1 billion overall, effectively the par value of the credit default swaps.  No TARP funds were 
+directly used in the Maiden Lane III transaction.13   
+Objectives 
+Twenty-seven members of Congress asked SIGTARP to review the basis for these counterparty 
+payments, whether they were in the best interests of the taxpayers, and whether they needed to be 
+made at 100% of par value.  SIGTARP also sought to determine to what extent AIG continues to 
+have potential risk to other counterparty payments associated with their financial products.  In 
+addressing these issues, this report is organized around these questions: 
+ 
+• What were the key decisions that led to the creation of Maiden Lane III? 
+• Why were counterparties paid at effectively par value? 
+• What AIG exposures to credit default swaps exist outside of Maiden Lane III? 
+For a discussion of the audit scope and methodology, see Appendix A.  For definition of the 
+acronyms, see Appendix B.  For the audit team members, see Appendix C.  For a copy of 
+comments from the Federal Reserve, see Appendix D.  For a copy of the comments from 
+Treasury, see Appendix E. 
+ 
+13 AIG would eventually receive additional Government assistance when in March 2009, Treasury established an 
+equity capital facility permitting AIG to access up to $29.8 billion in return for preferred shares in AIG.  As of 
+October 2, 2009, AIG had drawn down $3.2 billion from the facility.  
+ 
+Key Decisions That Led to the Creation of 
+Maiden Lane III  
+This section addresses the circumstances and decisions that led to the creation of Maiden Lane 
+III.  AIG began suffering significant liquidity problems in September 2008 when it was required 
+to post collateral to its counterparties to make up for, among other things, the rapidly declining 
+value of the securities underlying its credit default swaps.  On September 15, 2008, AIG’s long-
+term credit rating was downgraded, and, without some kind of assistance, the company faced 
+bankruptcy. FRBNY believed that a consortium of private banks would be able to offer 
+assistance to AIG.  The consortium, however, believed AIG’s liquidity needs exceeded the value 
+of the company’s assets, and the private sector solution failed in the wake of the bankruptcy of 
+Lehman Brothers.  After the prospect of receiving private sector financing disappeared, AIG  
+turned to the Federal Reserve.  The Federal Reserve and Treasury considered the benefits of 
+supporting AIG, including the impact that an AIG failure could have on the financial system as a 
+whole and the risks of supporting AIG, which included increasing moral hazard. Because Federal 
+Reserve and Treasury officials believed that an AIG bankruptcy could ultimately have a greater 
+systemic impact than Lehman’s bankruptcy one day before, they decided that additional Federal 
+support was needed to maintain the overall stability of the financial markets.  On September 16, 
+2008, the Federal Reserve Board authorized FRBNY to extend an $85 billion revolving credit 
+facility to AIG.  In a rush to take action quickly, FRBNY did not craft its own terms and instead 
+simply adopted in substantial part the economic terms of a draft term sheet under consideration 
+by a consortium of private banks, which included a very high interest rate.  The terms of this 
+agreement, including the substantial increase in the amount of AIG debt and the substantial 
+interest rate, would later put AIG’s credit rating in jeopardy once again, requiring additional 
+Government action.  FRBNY further determined that addressing AIG’s credit default swap 
+portfolios and assuming liabilities associated with AIG’s most problematic credit default swap 
+obligations, which continued to be a drain on AIG’s liquidity, would be critical to any 
+restructuring of the original agreement.  Therefore, on November 10, 2008, the Federal Reserve 
+Board authorized FRBNY to create Maiden Lane III to purchase the CDOs underlying certain 
+credit default swap contracts from the counterparties.  Figure 1 shows the timeline of events 
+discussed in this section.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+ 
+ 
+Figure 1: Timeline of Key Events Leading to the Creation of Maiden Lane III 
+ 
+ 
+ 
+ 
+September, 2008: The decline in value of the CDOs 
+underlying AIGFP’s credit default swaps forces AIG to post 
+increasing amounts of collateral, together with other factors 
+leading to a liquidity crisis for AIG. 
+ 
+ 
+ 
+ 
+FRBNY considers options 
+for restructuring the credit 
+facility and addressing 
+AIG’s liquidity pressures. 
+Private banks evaluate a solution 
+to AIG’s liquidity crisis.  AIG’s 
+credit rating is downgraded, and 
+the company must post more 
+collateral.  AIG faces bankruptcy. 
+FRBNY negotiates with 
+AIG’s counterparties on 
+concessions for the 
+value of the CDOs 
+Maiden Lane III purchases 
+CDOs from AIG counterparties. 
+November 6-7, 2008 Late September-October November 25, December 18 and 22 
+ 
+September 15, 2008 
+ 
+Treasury announces $40 billion 
+in TARP funding for AIG. The 
+Federal Reserve announces the 
+restructuring of the $85 billion 
+credit facility and the creation 
+of Maiden Lane II and Maiden 
+Lane III. 
+FRBNY opts to create Maiden 
+Lane III by purchasing CDOs 
+from counterparties in exchange 
+for terminating the credit default 
+swaps. 
+November 10, 2008 October-November 2008 September 16, 2008 
+The private sector solution 
+disappears.  The Federal Reserve 
+Board, with the support of 
+Treasury, authorizes an $85 
+billion credit facility for AIG. 
+ 
+ 
+ 
+ 
+ 
+AIG Suffers a Crisis in Liquidity in September 2008  
+ 
+AIGFP’s liquidity issues resulted largely from its obligation to post collateral in connection with 
+its credit default swaps.  As the value of the underlying CDOs fell, AIG was contractually 
+obligated to post collateral to its counterparties to make up for the difference in the drop in price 
+of the securities.  Some of the credit default swaps contracts also included a provision that if 
+AIG’s credit rating was downgraded, AIG would have to post additional collateral to provide 
+assurances that AIG could pay if the underlying CDOs suffered a credit event such as a default.  
+The amount of collateral posted varied from contract to contract.  AIGFP’s contracts were 
+structured so that if the future value of the CDOs increases, AIGFP would be entitled to the 
+return of this collateral. 
+ 
+AIG’s significant collateral call problems began in the third quarter of 2007 and continued to 
+escalate throughout 2008.  Prior to September 2007, AIGFP had not posted any collateral related 
+to its swap portfolio.  Credit downgrades of AIG corporate debt and the precipitous decline in the 
+value of the underlying CDOs resulted in rapidly increasing collateral calls by counterparties in 
+the first three quarters of 2008, as seen in Table 1.14  
+                                                 
+14 Several other factors drove AIG’s liquidity crisis. AIG also faced severe liquidity pressures arising out of its 
+losses on residential mortgage-backed securities it had invested in as part of its securities lending program.  The 
+Federal Reserve Board twice authorized the FRBNY to take steps to alleviate these pressures: on October 8, 2009, 
+the Federal Reserve Board authorized the FRBNY to establish a securities borrowing program, and on November 
+10, 2009, authorized the establishment of Maiden Lane II.  Additionally, among other things, the deterioration in its 
+financial condition and credit rating meant that AIG needed to fund collateral obligations under guaranteed 
+7 
+ 
+ 
+Table 1: AIG Collateral Postings from December 31, 2007, through September 30, 
+2008 (dollars in millions) 
+ Collateral posting during quarter ending 
+Collateral Posting by Portfolio 
+December 31, 
+2007
+March 31, 
+2008
+June 30, 
+2008
+September 30, 
+2008
+Foreign Regulatory Capital a 0 212 319 443
+Arbitrage – Multi-sector CDO b 2,718 7,590 13,241 31,469
+Arbitrage – Corporate 161 368 259 902
+Total Collateral Postings 2,879 8,170 13,819 32,814
+Source: SIGTARP analysis of AIG data  
+a Foreign regulatory capital swaps portfolio refers to swaps written on diversified pools of residential mortgages and 
+corporate loans (made to both large corporations and small to medium-sized enterprises). In exchange for a periodic 
+fee, foreign financial institutions receive credit protection with respect to diversified loan portfolios they own, thus 
+reducing their minimum capital requirements. 
+bArbitrage portfolio refers to transactions written on multi-sector CDOs or designated pools of investment grade 
+senior unsecured corporate debt or collateralized loan obligations. 
+ 
+ 
+On Friday, September 12, 2008, Standard & Poor’s (“S&P”) placed AIG on negative credit 
+watch signaling a potential upcoming downgrade in the firm’s credit rating as early as the 
+following week.  As described above, such a downgrade would have triggered additional 
+collateral postings under AIGFP’s credit default swap contracts.  To prevent such a downgrade, 
+during the weekend, AIG attempted to raise capital from private equity firms and other potential 
+investors to address its liquidity crisis.  AIG met with FRBNY officials to keep them abreast of 
+the status of these talks.  Although aware of the impending crisis, Federal Reserve officials 
+believed that a private solution would be forthcoming and, as a result, did not foresee that 
+Federal Reserve assistance would be necessary. 
+ 
+On Monday, September 15, 2008, after Lehman filed bankruptcy early in the morning, the 
+private sector solution for AIG collapsed.  That same day, then-FRBNY President Geithner 
+spearheaded an effort to encourage a private solution to AIG’s liquidity crisis.  Mr. Geithner 
+mobilized a consortium of banks led by representatives from JPMorgan Chase & Co. and 
+Goldman Sachs to arrange private financing for a $75 billion loan to address AIG’s liquidity 
+crisis. The Federal Reserve believed that the bank consortium would provide the liquidity AIG 
+needed.  A JPMorgan Chase vice chairman noted that participants felt a sense of urgency to find 
+an immediate solution to avert a potential downgrade by the credit rating agencies.  The group 
+developed a loan term sheet, but an analysis of AIG’s financial condition revealed that liquidity 
+needs exceeded the valuation of the company’s assets, thus making the private participants 
+unwilling to fund the transaction.  FRBNY officials told SIGTARP that, in their view, the private 
+participants declined to provide funding not because AIG’s assets were insufficient to meet its 
+needs, but because AIG’s liquidity needs quickly mounted in the wake of the Lehman 
+bankruptcy and the other major banks decided they needed to conserve capital to deal with 
+adverse market conditions. 
+                                                                                                                                                             
+investment contracts and to make capital contributions to a number of its subsidiaries in accordance with the 
+requirements of applicable regulators.  
+ 
+8 
+ 
+ 
+ 
+On the afternoon of September 15, 2008, the three largest rating agencies, Moody’s, S&P, and 
+Fitch Ratings Services, downgraded the long-term credit rating of AIG.  The rating downgrades, 
+combined with a steep drop in AIG’s common stock price, prevented AIG from accessing money 
+in the short-term lending markets, and, without outside intervention, the company faced 
+bankruptcy, as it simply did not have the cash that was required to provide to AIGFP’s 
+counterparties as collateral.  On the morning of September 16, 2008, Mr. Geithner was informed 
+that a private sector loan could not be arranged.  That same day, the Federal Reserve Board, with 
+the encouragement of Treasury, authorized FRBNY to make an $85 billion revolving credit 
+facility available to AIG, so that it could make the collateral payments, meet the liquidity needs 
+arising from AIG’s securities lending programs, and meet other obligations necessary to avoid 
+bankruptcy. 
+ 
+Federal Reserve and Treasury Consider the Benefits and 
+Risks of Supporting AIG 
+In considering whether to rescue AIG, senior Federal Reserve and Treasury officials considered 
+the pros and cons of lending to AIG and identified concerns about an AIG bankruptcy that they 
+believed would be inevitable if AIG failed to make the collateral payments to counterparties.  
+Senior FRBNY officials discussed disadvantages of lending to AIG including the perception that 
+lending to AIG would be inconsistent with the treatment of Lehman, could diminish AIG’s 
+incentive to pursue private sector solutions, and could increase moral hazard.  FRBNY also 
+identified several major concerns about the widespread impact of not lending to AIG and a 
+potential AIG bankruptcy:  the impact on the American retirement system; the impact of AIG’s 
+commercial paper obligations,15  the broader effect on the already frozen credit markets and 
+money market mutual funds; and the considerable systemic risk to the global financial system. 
+ 
+First, Federal Reserve and Treasury officials believed that AIG’s failure posed considerable risk 
+to the entire financial system and would have significantly intensified an already severe financial 
+crisis and contributed to a further worsening of global economic conditions.  Federal Reserve 
+Chairman Bernanke testified on March 24, 2009, before the House Financial Services 
+Committee, that Federal Reserve and Treasury had agreed that AIG’s failure “would have posed 
+unacceptable risks for the global financial system and for our economy.”  Chairman Bernanke 
+cited losses that would be incurred by state and local governments that had lent $10 billion to 
+AIG; global banks and investment banks that had $50 billion in exposure to losses on loans, lines 
+of credit and derivatives; losses of $20 billion in AIG commercial paper; and losses by workers 
+whose 401(k) plans had purchased $40 billion of insurance against the risk that their values 
+would decline in value.  As Chairman Bernanke testified, “[c]onceivably, its failure could have 
+resulted in a 1930s-style global financial and economic meltdown, with catastrophic implications 
+for production, income, and jobs.”  Mr. Geithner, who had since become Secretary of the 
+                                                 
+15 Commercial paper is an unsecured, short-term debt instrument used by companies to cover short-term obligations 
+such as operating and payroll expenses, accounts receivable, and inventories.  The debt is usually issued at a 
+discount, reflecting prevailing market interest rates.  Commercial paper is not usually backed by any form of 
+collateral, so only firms with high-quality debt ratings will easily find buyers without having to offer a substantial 
+discount (higher cost) for the debt issue.  
+9 
+ 
+ 
+Treasury, testified before that same Committee that the “collapse of AIG could cause large and 
+unpredictable global losses with systemic consequences—destabilizing already weakened 
+financial markets, further undermining confidence in the economy, and constricting the flow of 
+credit.”  Secretary Geithner further testified that, “[a] disorderly failure of AIG risked deepening 
+and prolonging the current recession.”  According to Congressional testimony of Donald Kohn, 
+the Vice Chairman of the Federal Reserve, such a failure would also have further undermined 
+business and household confidence and contributed to higher borrowing costs, reduced wealth, 
+and a further weakening of the economy.   
+ 
+Second, the Federal Reserve and Treasury considered the effect an AIG bankruptcy could have 
+on the American retirement system and determined that AIG’s failure would have a global retail 
+impact, notably on stable value funds and variable rate annuities.  A stable value fund is an 
+investment vehicle found in company retirement plans and IRA accounts.16  Stable value funds 
+are paired (or wrapped) with insurance contracts to guarantee a specific minimum return.  
+AIGFP had written approximately $38 billion of stable value fund wrap contracts to more than 
+200 wrap contract counterparties, including trustees and investment managers of company 
+retirement plans and 401k plans such as Fidelity, Vanguard, and the company retirement plans 
+for AT&T, DuPont, Wal-Mart, Bank of America, and other large U.S. corporations.  If AIG 
+failed and the retirement plans could not secure new wrap contracts, the investment managers 
+would be forced to sell assets in their plans at distressed prices, which could generate immediate 
+losses in the stable value funds.  Treasury and Federal Reserve officials were concerned that 
+large, unrealized losses could lead to real economic losses within the retirement funds and cause 
+a broader crisis of confidence in the American public about the security of retirement benefits. 
+ 
+Finally, Federal Reserve and Treasury officials were also concerned about the impact of an AIG 
+default on its commercial paper obligations and on the already frozen credit markets and 
+distressed money market mutual funds, particularly after observing the negative economic effects 
+of Lehman’s bankruptcy.   Federal Reserve and Treasury senior officials  believed that AIG’s 
+derivatives   were more risky and unbalanced than Lehman’s; that investors could lose 
+confidence in AIG subsidiaries, which could lead to a liquidity shortfall; and finally, that AIG 
+would fail to perform on annuities and stable value wraps.  Further, Federal Reserve and 
+Treasury officials discussed whether a default on AIG’s commercial paper could lead to further 
+“breaking-of-the buck” for money market funds.  Money market funds are considered among the 
+safest investments and maintain a net asset value of $1 per share.  When the fund falls below $1 
+per share, it is known as “breaking the buck,” an event that had not occurred in many years.  
+After Lehman filed for bankruptcy, the Reserve Primary Fund, the oldest money market fund in 
+the United States, was forced to write off debt issued by Lehman (about $785 million).  As a 
+consequence, on September 16, 2008, the Reserve Primary Fund dipped below $1.00 per share, 
+thereby “breaking the buck,” which further aggravated the credit crisis.  The resulting market 
+                                                 
+16 These funds seek to maintain a $1 share price calculated by dividing the total value of all of the securities in its 
+portfolio (less any liabilities) by the number of shares outstanding.  Stable value funds comprise mostly “synthetic 
+guaranteed investment contracts” (known also as wrapped bonds) because of their inherent stability.  Guaranteed 
+investment contracts are insurance contracts that guarantee the owner a repayment of principal and a fixed or 
+floating interest rate for a predetermined period of time.  For example, if a company pension plan owns a bond with 
+a face value of $1,000 and the price in the market is $950, AIGFP would pay the $50 difference between the face 
+value and the market value.  These bonds can be short or intermediate term with longer maturities than other choices 
+such as money market funds.  
+10 
+ 
+ 
+anxiety contributed to a run on the Reserve Primary Fund in which investors attempted to 
+withdraw their money quickly.  In addition, large-scale redemptions caused money market 
+mutual fund companies to hoard cash rather than invest in funding markets, such as commercial 
+paper and certificates of deposit.   AIG had approximately $20 billion in commercial paper 
+outstanding that was owned by institutional investors and money market funds that would likely 
+have taken losses had AIG failed.  By contrast, in May 2008, Lehman had $8 billion in 
+commercial paper outstanding, an amount that decreased in the months leading to Lehman’s 
+bankruptcy.  Federal Reserve and Treasury officials were concerned that an AIG commercial 
+paper default could force other money market funds to break the buck, which could cause 
+investor panic and a run on each of the funds holding AIG debt. 
+ 
+In the final analysis, the Federal Reserve and Treasury believed that the risks of not rescuing 
+AIG outweighed the risks associated with rescuing the troubled insurance company, and on 
+September 16, 2008, the Federal Reserve Board authorized an $85 billion credit facility for AIG.   
+ 
+FRBNY and Treasury Officials Realized that the Structure 
+of the Assistance Must Be Changed 
+ 
+Although FRBNY officials had been meeting with AIG management and advisors during the 
+weekend of September 12, 2008, and over the following days, Secretary Geithner informed 
+SIGTARP that he believed that the bank consortium led by JPMorgan Chase would provide the 
+liquidity AIG needed.  When the consortium declined to assist AIG and the three largest credit 
+rating agencies downgraded AIG on September 15, 2008, the Federal Reserve and Treasury 
+made the decision, within a matter of hours, that FRBNY would provide $85 billion in financing 
+to AIG.  FRBNY did not develop a contingency plan in the event that the private financing did 
+not go through and did not conduct an independent analysis regarding the appropriate terms for 
+Government assistance to AIG; instead it used in substantial part the economic terms of the 
+private sector deal, albeit for $85 billion instead of the $75 billion prepared by JPMorgan Chase 
+for the unsuccessful private sector solution.  The deal gave FRBNY 79.9 percent equity in the 
+shares of AIG and a floating interest rate calculated to be more than 11 percent.17  An FRBNY 
+official told SIGTARP that, by September 17, 2008—the day after FRBNY provided initial 
+assistance to AIG and two days after AIG’s downgrades—it was clear that the rating agencies 
+were planning another downgrade of AIG because of the deteriorating financial condition of the 
+company and the impact the $85 billion FRBNY loan could have on AIG’s capital structure, 
+including the high interest rate payments AIG would have to make to FRBNY.18  FRBNY’s 
+General Counsel emphasized in an interview with SIGTARP that FRBNY “inherited the bank 
+                                                 
+17 The rate was a floating rate calculated using the 3-month London Interbank Overnight Rate (“LIBOR”) plus 8.5 
+percent which calculated to approximately 11.3 percent on September 17, 2008. The LIBOR is the rate of interest at 
+which banks borrow funds from other banks, in marketable size, in the London interbank market.   
+18 Capital structure is a mix of a company's long-term debt, specific short-term debt, common equity, and preferred 
+equity. The capital structure is how a firm finances its overall operations and growth by using different sources of 
+funds. 
+11 
+ 
+ 
+consortium deal,” that the interest rate was too high, and that FRBNY recognized the need to 
+restructure the deal by making it less onerous to AIG soon after the agreement was signed.19   
+ 
+Federal Reserve and FRBNY Officials Decide to Purchase 
+Securities from Counterparties through Maiden Lane III 
+ 
+From the time FRBNY initially provided AIG with financing, FRBNY officials began meeting 
+with AIG management to understand AIG’s liquidity drain and to determine AIG’s liquidity 
+needs.  S&P’s September 15, 2008 downgrade triggered further collateral postings in AIGFP’s 
+credit default swap portfolio, and these continued even after FRBNY provided financing. Indeed, 
+AIG needed billions of dollars a week to meet collateral calls and make payments to AIGFP’s 
+swap counterparties.  As of November 5, 2008, AIG had drawn down approximately $61 billion 
+of the initial $85 billion FRBNY line of credit.   
+ 
+FRBNY sought help in evaluating the CDOs underlying AIGFP’s credit default swap contracts.  
+Senior FRBNY officials learned that AIG had previously retained BlackRock Solutions (“BRS”) 
+to evaluate AIG’s swap portfolios and underlying CDOs.  A senior vice president of FRBNY 
+confirmed with SIGTARP that BRS’s knowledge of the portfolio and their analytical work were 
+important to FRBNY’s efforts to rescue AIG.  As a result, FRBNY decided to hire BRS to assist 
+FRBNY in its evaluation of AIG’s liquidity needs.20  A BRS managing director noted that AIG’s 
+swap exposure was complicated for two reasons. First, each swap contract had a different credit 
+event that would trigger a collateral posting under the contract. Second, the counterparties had 
+different mark-to-market valuations for the underlying CDOs than AIGFP, therefore making the 
+swap exposures difficult to track.21  For example, AIGFP could have marked a CDO at 85 cents 
+on the dollar while the counterparty could have marked the CDO at 70 cents on the dollar on its 
+own books, which, among other things, created potential disputes with the counterparties as to 
+the amount of collateral owed.  In late September, FRBNY asked BRS to help them analyze a 
+portfolio of multi-sector CDOs that would eventually become Maiden Lane III.   
+ 
+On October 3, 2008, S&P revised its outlook for AIG to “negative” from “developing,” and 
+Moody’s downgraded AIG’s senior unsecured credit rating, citing AIG’s plans to sell some of its 
+businesses to pay debt, thus leaving AIG with fewer businesses to generate income.  It was clear 
+that the initial $85 billion line of credit had not sufficiently solved AIG’s liquidity crisis, and, in 
+some respects, actually exacerbated it as the high interest rate on amounts AIG drew down on the 
+line of credit would have required significant annual interest payments by AIG.  For example, 
+the floating rate of interest was 11.3 percent as of September 17, 2008, and AIG’s annual interest 
+payment alone would have been $9 billion per year if AIG drew down the full line of credit.  
+According to the Federal Reserve, the size and terms of the $85 billion loan increased AIG’s 
+leverage (the amount of debt AIG used to finance its assets) and lowered its interest coverage 
+                                                 
+19 These changes, including a reduced interest rate, were reflected subsequently in the November 10, 2008, revised 
+term sheet. 
+20 BRS kept separate the work it continued to do for AIG.  AIG’s CEO, Edward Liddy, consented to the FRBNY’s 
+retention of BRS. 
+21 Mark to market is the act of recording the price or value of a security, portfolio, or account to reflect its current 
+market value, rather than its book value. 
+12 
+ 
+ 
+ratio (a measure of how easily AIG can pay interest on a debt),22  two metrics that credit rating 
+agencies use in assessing an issuer’s financial strength.  In addition, according to Donald Kohn, 
+Vice Chairman of the Federal Reserve, the $19 billion decline in the market value of the CDOs 
+underlying the credit default swaps and the decline of AIG’s residential mortgage-backed 
+securities portfolio in the third quarter of 2008 resulted in an erosion in AIG’s capital that further 
+placed AIG’s credit ratings in jeopardy.23 Further, the continued drain on AIG’s liquidity from 
+having to continue to make collateral payments to AIGFP counterparties also contributed to the 
+danger of a downgrade.  According to an FRBNY senior vice president, any further downgrades 
+to AIG’s long-term credit rating would have been catastrophic and would most likely have led to 
+an AIG bankruptcy.   
+ 
+At this time, AIG was attempting to resolve its liquidity crisis caused by the collateral posting 
+requirements by negotiating a cash payment to the counterparties in return for terminating the 
+credit default swaps.  AIG held bilateral discussions with counterparties about such terminations 
+and kept FRBNY informed on the status of its efforts. 
+ 
+Because these negotiations were not bearing fruit, FRBNY asked BRS to begin looking at a 
+number of options for dealing with AIG’s multi-sector CDO counterparties.  From late October 
+to early November 2008, BRS presented three options for FRBNY to consider, but FRBNY, 
+however, believed that the first two options had significant limitations: 
+• The first proposed option would have involved counterparties cancelling their credit 
+default swaps and selling the underlying CDOs to an FRBNY-financed SPV, for total 
+consideration of par, comprised of previously posted collateral, cash, and a mezzanine 
+note in the SPV. The SPV would purchase the CDOs at market value, funded by a senior 
+loan from FRBNY, the mezzanine notes held by the counterparties, and a subordinated 
+loan from AIG.  The mezzanine notes would be repaid from the cash flows of the CDOs 
+after the FRBNY's senior loan was fully repaid, effectively leaving counterparties with a 
+long-term risk position in the CDOs.  FRBNY was uncertain whether the counterparties 
+would be motivated to cancel the swaps if they were left with any un-hedged CDO risk 
+associated with retaining the mezzanine tranche.  In any event, FRBNY officials stated 
+that this option would be time consuming and impracticable, given that the process would 
+have required negotiations with each counterparty over the size of the mezzanine note in 
+relation to the value of their swaps and the CDOs, complicated by market illiquidity that 
+led to credit default swap valuation differences between counterparties and AIG.  
+FRBNY believed it needed to gain the agreement of most major counterparties quickly to 
+achieve the liquidity relief necessary to de-risk AIG and that there would be insufficient 
+time to successfully negotiate this option. 
+• The second proposed option would have allowed the counterparties to keep their multi-
+sector CDOs and the protection provided by the credit default swaps, with the obligation 
+to perform under the credit default swaps transferred from AIG to an SPV guaranteed by 
+                                                 
+22 According to a November 10, 2008, Report by the Federal Reserve, Report Pursuant to Section 129 of the 
+Emergency Economic Stabilization Act of 2008: Restructuring of the Government’s Financial Support to the 
+American International Group, Inc. on November 10, 2008, pg. 4. 
+23 Statement of Donald L. Kohn, Vice Chairman, Board of Governors of the Federal Reserve System, before the 
+Committee on Banking, Housing, and Urban Affairs, U.S. Senate, March 5, 2009. 
+13 
+ 
+ 
+the FRBNY, in exchange for counterparties agreeing to forego further collateral postings.  
+Under this proposal, FRBNY would not own the underlying CDOs, but the FRBNY-
+funded SPV would only have to make payments as provided in the credit default swap 
+contracts in the event of default on the underlying CDOs.  FRBNY told SIGTARP that a 
+perceived downside of this structure from FRBNY’s perspective was that it could involve 
+FRBNY in long-term credit relationships with supervised institutions.  Given further that 
+there was a lack of statutory authority of the Federal Reserve to provide such a guarantee, 
+FRBNY determined that this option was also not viable. 
+• The third option, which FRBNY eventually selected, was to create an SPV to purchase 
+the underlying CDOs from AIGFP’s counterparties, in connection with a termination of 
+the related credit default swaps.  Within this option, BRS noted that counterparties could 
+receive effectively par value or FRBNY could seek a reduction in the amount that 
+counterparties would receive—otherwise known as concessions or a “haircut”—for the 
+total of the CDOs and related swaps held by each of AIGFP’s counterparties. FRBNY’s 
+AIG monitoring team explained that this structure had the benefit of minimizing 
+valuation disputes with counterparties, because combining the payment by Maiden Lane 
+III for the CDOs and the offset of collateral for the tear-up of the credit default swap 
+contracts eliminated the need to agree with counterparties separately on the market price 
+of the CDOs and the value of the credit default swap contracts.  BRS assessed this option 
+as having a “high certainty of execution” and the “simplest structure.”   FRBNY officials 
+told SIGTARP that this structure was also attractive because it fit within the legal 
+authorities of the Federal Reserve to lend against collateral. 
+ 
+While FRBNY was conducting analysis on alternative solutions, AIG’s attempts to negotiate the 
+termination of its multi-sector credit default swap book with its counterparties were failing.  AIG 
+requested FRBNY’s assistance in securing these terminations. 
+ 
+Ultimately, on November 3, 2008, FRBNY decided to create Maiden Lane III, the SPV through 
+which the CDOs underlying AIGFP’s credit default swaps were purchased and subsequently 
+managed.  FRBNY officials concluded that, by purchasing the CDOs underlying AIGFP’s credit 
+default swaps from the counterparties and therefore compensating them at the equivalent of par, 
+the counterparties would agree to cancel the credit default swap contracts, and thus AIGFP 
+would no longer have to make collateral payments to the counterparties, which would ease the 
+liquidity crisis at AIG and help avoid another credit rating downgrade.  After consulting with 
+staff at Federal Reserve Board and Treasury, FRBNY shared its proposal for resolving the multi-
+sector credit default swap book with AIG.  On November 6, 2008, AIG formally requested that 
+FRBNY engage in discussions with counterparties on its behalf.  On November 10, 2008, the 
+Federal Reserve Board authorized the FRBNY’s establishment of, and loan to, Maiden Lane III. 
+On November 25, 2008, Maiden Lane III was created and began purchasing the underlying 
+CDOs from the counterparties.  As discussed more fully in the next section, there were concerns, 
+however, over the price paid for the credit default swaps. 
+14 
+ 
+ 
+ 
+FRBNY Decided to Compensate Counterparties 
+Effectively at Par Value 
+This section addresses the reasons why AIG counterparties were effectively paid at par, or 100 
+percent of face value. After FRBNY decided to create Maiden Lane III, FRBNY officials 
+attempted to obtain “haircuts,” or voluntary concessions, from eight of AIG’s largest 
+counterparties; those efforts were not successful.  In November and December 2008, Maiden 
+Lane III paid AIG’s counterparties $27.1 billion, the fair market value of their CDOs, and the 
+counterparties were allowed to keep the $35 billion in collateral they had received prior to the 
+transaction for a total of $62.1 billion or par value.  Then-FRBNY President Geithner and the 
+FRBNY General Counsel told SIGTARP that the financial condition of the counterparties was 
+not a relevant factor in the decision to create Maiden Lane III and pay counterparties effectively 
+at par.  On March 15, 2009, after significant public and Congressional pressure, AIG, after 
+consultation with the Federal Reserve, publicly disclosed the identities of the counterparties.  
+FRBNY officials said that they believe they will recoup the loan they made to Maiden Lane III 
+over time. As of September 30, 2009, the current fair market value of the Maiden Lane III 
+portfolio is $23.5 billion, versus a loan balance of $19.3 billion. 
+ 
+FRBNY Efforts to Limit Counterparty Payments Were 
+Unsuccessful 
+ 
+After FRBNY decided to create Maiden Lane III to buy the underlying CDOs, it attempted to 
+obtain concessions from AIGFP’s counterparties.  FRBNY developed talking points for its staff 
+for these negotiations.  The talking points stressed that participation in concession negotiations 
+with FRBNY was voluntary and asked the counterparties to consider the cost of the considerable 
+direct and indirect benefits that the counterparties had derived from the Federal Reserve’s 
+support of AIG.  FRBNY developed packets with detailed information about the CDO portfolio 
+for each counterparty.  The packets included valuations of the multi-sector CDO portfolios and 
+identified possible opportunities for concessions. 
+ 
+On November 6 and 7, 2008, FRBNY assistant vice presidents, vice presidents, senior vice 
+presidents, and executive vice presidents contacted eight of AIGFP’s largest counterparties 
+(Société Générale, Goldman Sachs, Merrill Lynch, Deutsche Bank, UBS, Calyon, Barclays and 
+Bank of America) by telephone.  They described a proposal under which each counterparty was 
+asked to accept a haircut from par.  Seven of the eight counterparties told FRBNY officials that 
+they would not voluntarily agree to a haircut. The eighth counterparty, UBS, said that it would 
+accept a haircut of 2 percent as long as the other counterparties also granted a similar concession 
+to FRBNY.  FRBNY officials told SIGTARP that their concerns about credit rating downgrades 
+limited the time available for negotiation about reductions in payments.  According to an 
+FRBNY senior vice president, the counterparties that FRBNY approached that resisted being 
+15 
+ 
+ 
+paid anything less than the equivalent of par in exchange for terminating their credit default swap 
+contracts cited several reasons for this, including: 
+• They had collateral already posted by AIG to protect against the risk of AIG default.  The 
+combination of collateral in their possession plus the fair market value of the underlying 
+CDOs also in their possession equaled the par value of the credit default swaps.  Thus, 
+from the counterparty’s perspective, offering a concession would mean giving away 
+value and voluntarily taking a loss, in contravention of their fiduciary duty to their 
+shareholders. 
+• In addition to the collateral, they had a reasonable expectation that AIG would not default 
+on any further obligations under the credit default swaps because the U.S. government 
+had already demonstrated that it would not allow AIG to go bankrupt. 
+• They had already incurred costs to mitigate the risk of an AIG default on its obligations 
+that would be exacerbated if they were paid less than par value. 
+• They were contractually entitled to the par value of the credit default swap contracts.  
+ 
+SIGTARP spoke with officials from Goldman Sachs and Merrill Lynch (two of AIGFP’s largest 
+domestic counterparties) to obtain their perspectives: 
+ 
+• Goldman Sachs: Goldman Sachs had approximately $22.1 billion of notional amount of 
+outstanding credit default swap contracts with AIG, approximately $20 billion of which 
+were against an underlying portfolio of CDOs.  According to Goldman Sachs, it had one 
+telephone conversation with FRBNY staff in which the possibility of concessions was 
+mentioned.  Goldman Sachs has since explained that it did not agree to concessions 
+because it would have realized a loss if it had.  Goldman Sachs did not hold the 
+underlying CDOs but rather had sold equivalent credit protection to its clients who held 
+those positions; Goldman Sachs then purchased the corresponding value in protection 
+from AIG to hedge against its own exposure in the event of a default of the reference 
+CDOs.  Accordingly, Goldman Sachs was obligated to pay its clients in full on the other 
+side of the derivative transactions, and, if it granted a haircut to FRBNY, it would have to 
+realize that amount as a loss. 
+ 
+In addition, Goldman Sachs informed SIGTARP that it had purchased additional credit 
+risk protection against an AIG default.  Of the $22.1 billion of credit default swaps 
+outstanding in November 2008, approximately $13.9 billion was resolved through 
+Maiden Lane III.  For that portfolio, Goldman had already received $8.4 billion of 
+collateral payments from AIG, representing AIG’s calculation of the decline in the fair 
+market value of the underlying CDOs.  However, Goldman Sachs believed that the drop 
+in value was actually $9.6 billion, and it purchased credit default swaps and other 
+protection from third parties that would have paid Goldman Sachs slightly more than the 
+difference ($1.2 billion) had AIG defaulted on its obligations.  That additional protection, 
+which related to all of Goldman Sachs’ AIG hedges, cost Goldman Sachs more than $100 
+million. 
+ 
+16 
+ 
+ 
+Thus, according to Goldman Sachs, even if AIG defaulted, Goldman Sachs would be 
+made whole on the Maiden Lane III credit default swaps in light of the collateral it 
+already held ($8.4 billion), the additional protection it had purchased (totaling more than 
+$1.2 billion), and what it calculated to be the value of the underlying CDOs ($4.3 billion).  
+As a result, it did not consider itself materially at risk if AIG in fact defaulted.  
+ 
+Of course, notwithstanding the additional credit protection it received in the market, 
+Goldman Sachs (as well as the market as a whole) received a benefit from Maiden Lane 
+III and the continued viability of AIG.  First, in light of the illiquid state of the market in 
+November 2008 (an illiquidity that likely would have been exacerbated by AIG’s failure), 
+it is far from certain that the underlying CDOs could have easily been liquidated, even at 
+the discounted price of $4.3 billion.  Second, had AIG collapsed, the systemic 
+implications on other market participants might have made it difficult for Goldman Sachs 
+to collect on the credit protection it had purchased against an AIG default, although 
+Goldman Sachs stated that it had received collateral from its counterparties in those 
+transactions.  Finally, if AIG had defaulted, Goldman Sachs would have been forced to 
+bear the risk of further declines in the market value of  the approximately $4.3 billion in 
+CDOs that it transferred to the Maiden Lane III portfolio as well as approximately $5.5 
+billion24 for its credit default swaps that were not part of the Maiden Lane III portfolio; 
+Maiden Lane III removed any risk for the $4.3 billion within that portfolio, and continued 
+Government backing of AIG provided Goldman Sachs with ongoing protection against 
+an AIG default on the remaining $5.5 billion.  
+ 
+• Merrill Lynch: A managing director told SIGTARP that, on November 7, an FRBNY 
+Vice President and Assistant Vice President called senior Merrill Lynch officials and 
+asked if Merrill Lynch would consider accepting a discounted price to tear up the 
+contracts.  Senior Merrill Lynch officials told FRBNY that FRBNY would need to 
+contact directly John Thain, Merrill Lynch’s then-CEO, to discuss any potential 
+discount.  FRBNY stated that an executive vice president called Mr. Thain at the outset 
+of the negotiations to request his cooperation.  Later that night, FRBNY spoke by phone 
+to a Merrill Lynch managing director and proposed a transaction in which Merrill Lynch 
+would receive par for the contracts.  The managing director told SIGTARP that Merrill 
+Lynch was not receptive to FRBNY’s request for concessions for reasons similar to those 
+described above by Goldmans Sachs and because Merrill Lynch had already paid 
+approximately $40 million in fees and to obtain credit protection and anticipated that it 
+would have to pay an additional approximately $36 million in fees and costs to resolve 
+the Maiden Lane III CDOs.   
+ 
+During these negotiations, an FRBNY executive vice president and senior vice president 
+contacted the Commission Bancaire25 to inform them that the FRBNY was conducting 
+                                                 
+24 Goldman Sachs calculated that the $8.2 billion in non-Maiden Lane III AIG credit default swaps had a market 
+value of approximately $5.5 billion.  It had received collateral or bought credit protection slightly in excess of the 
+$2.7 billion difference.   
+25
+ The Commission Bancaire is the French bank regulator.  Its mission is to protect depositors and act as watchdog 
+over the French banking and financial system to ensure its profitability and financial stability.  The Commission has 
+17 
+ 
+ 
+negotiations with Société Générale and Calyon, two of the counterparties with the largest credit 
+default swap contracts with AIG, and was requesting their support. The Commission Bancaire 
+then contacted the firms.  The Commission Bancaire spoke again with FRBNY and forcefully 
+asserted that, under French law, absent an AIG bankruptcy, the banks could not voluntarily agree 
+to less than par value for the underlying securities in exchange for terminating the swap 
+contracts. Thus, the French banks claimed they were precluded by law from making concessions 
+and could face potential criminal liability for failing to comply with their duties to shareholders.   
+ 
+At the end of the day on November 7, after FRBNY officials had received negative reactions 
+from seven of the eight counterparties, including the French banks’ formal refusal, senior 
+FRBNY officials met with then-President Geithner.  After discussing the counterparties’ 
+reactions, including UBS’s conditional acceptance to give a 2 percent haircut,26 the officials 
+recommended to President Geithner that the Maiden Lane III transactions go forward without 
+haircuts because it would be impractical to obtain haircuts from all the counterparties.  Mr. 
+Geithner concurred, and it was decided that FRBNY would cease efforts to negotiate haircuts 
+and pay the counterparties the market value of the CDOs.  When combined with the collateral 
+already posted, this effectively meant that counterparties would be paid for the credit default 
+swaps at par value.  FRBNY officials then communicated this recommendation to officials of the 
+Federal Reserve Board, who assented.   
+ 
+Then-President Geithner believed it was prudent for FRBNY to try to obtain haircuts but had 
+little hope that the efforts would be successful because he felt that FRBNY had little available 
+leverage.  FRBNY officials have cited several reasons for this: 
+• The greatest leverage that FRBNY might have had – the threat of default and an 
+associated AIG bankruptcy – was effectively removed by FRBNY’s intervention in 
+September, an intervention that the counterparties understood to mean that the U.S. 
+government would not permit an AIG failure.  The officials stated that ethical constraints 
+prevented FRBNY from even suggesting that it would allow bankruptcy when it in fact 
+would not do so. 
+• In addition, FRBNY was concerned that its use of a threat of an AIG default might 
+introduce doubt into the marketplace about the resolve of the U.S. government in 
+following through on its commitments in support of financial stability.   FRBNY 
+officials felt the introduction of such uncertainty might have been dangerous and 
+potentially expensive for the U.S. economy in light of the precarious market conditions 
+in November 2008 and the extraordinary official efforts that had been taken to support 
+market functioning.    
+• FRBNY was further concerned – as it was throughout the AIG rescue – about the 
+reaction of the rating agencies.  While threatening not to support AIG might have been 
+useful for purposes of forcing concessions by the counterparties, it could also have been 
+                                                                                                                                                             
+the power to impose administrative penalties and financial sanctions to offenders (Article L613-1, Monetary and 
+financial code).   
+26 Secretary Geithner informed SIGTARP that while he has no reason to question the account of FRBNY officials 
+regarding this meeting, he did not recall being informed that UBS had agreed to a conditional haircut.  FRBNY 
+officials who attended the meeting with Mr. Geithner, however, specifically recall briefing Mr. Geithner on the UBS 
+offer. 
+18 
+ 
+ 
+viewed by the credit rating agencies as an indication that the FRBNY and the U.S. 
+government was not standing fully behind AIG, which could have had a negative impact 
+on AIG’s credit rating. 
+• As a policy matter, FRBNY was unwilling to use its leverage as the regulator for several 
+of the counterparties to compel concessions, in part because in the negotiations it was 
+acting as a creditor of AIG and not as the counterparties’ primary regulator. 
+• Also as a policy matter, FRBNY was uncomfortable with violating the principle of 
+sanctity of contract.  
+• The refusal of the French banks to negotiate concessions played a significant role in 
+complicating FRBNY’s efforts.  FRBNY views treating all parties equally as one of its 
+“core values,” and it did not want to be perceived as making a more favorable deal with 
+the French institutions than with the domestic institutions.  Indeed, FRBNY recently 
+suggested that requiring concessions from some banks while not requiring concessions 
+of others was not consistent with principles found in Section 4 of the Federal Reserve 
+Act (requiring the Federal Reserve to treat member banks and banks equally) and the 
+principles of national treatment and equality of competitive opportunity in the 
+International Banking Act (requiring that domestic banks and branches of foreign banks 
+be treated equally).  
+• Secretary Geithner further explained to Congress that “we explored at that time every 
+possible means to reduce the drain on their resources including what you referred to.  
+But again, because we have no legal mechanism in place for dealing with this, like we 
+deal with banks, we did not have the ability to selectively impose losses on their 
+counterparties.”27 
+ 
+Thus, despite the willingness of at least one counterparty to engage in discussions about a 
+potential haircut, all counterparties were paid effectively par value for the credit default swaps. 
+Table 2 presents a complete list of payments from Maiden Lane III to AIGFP counterparties for 
+the fair market value of the CDOs, which, in combination with the counterparties’ retention of 
+collateral previously posted by AIGFP, equaled effectively par value of the credit default swap 
+contracts.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                 
+27 Hearing before the Committee on Financial Services, Oversight of the Federal Government’s Intervention at 
+American International Group, U.S. House of Representatives, March 24th, 2009.   
+19 
+ 
+ 
+ 
+Table 2—Total Payments to AIG Credit Default Swap Counterparties 
+(in billions) 
+AIG Counterparty 
+Maiden Lane III
+Payment
+Collateral Payments
+Posted
+(as of 11/7) Total
+Société Générale 6.9 9.6 16.5
+Goldman Sachs 5.6 8.4 14.0
+Merrill Lynch 3.1 3.1 6.2
+Deutsche Bank 2.8 5.7 8.5
+UBS 2.5 1.3 3.8
+Calyon 1.2 3.1 4.3
+Deutsche Zentral-
+Genossenschaftsbank 1.0 0.8 1.8
+Bank of Montreal 0.9 0.5 1.4
+Wachovia 0.8 0.2 1.0
+Barclays 0.6 0.9 1.5
+Bank of America 0.5 0.3 0.8
+The Royal Bank of Scotland 0.5 0.6 1.1
+Dresdner Bank AG 0.4 0.0 0.4
+Rabobank 0.3 0.3 0.6
+Landesbank Baden-Wuerttemberg 0.1 0.0 0.1
+HSBC Bank, USA  0.0* 0.2 0.2
+Total 27.1** 35.0 62.1
+ 
+Source: SIGTARP analysis of AIG and FRBNY data 
+* Amount rounded down to $0. 
+** In addition to the $27.1 billion in payments to the counterparties, AIGFP received a payment of $2.5 billion as an 
+adjustment payment to reflect overcollateralization.  
+In addition to the payments reflected in Table 2, there was a $2.5 billion payment to AIGFP that 
+resulted from an agreement between AIG and FRBNY called the Shortfall Agreement.  This 
+document implemented the agreement of the FRBNY and AIG that Maiden Lane III would 
+acquire the CDOs at their October 31, 2008, market value.  Under this agreement, Maiden Lane 
+III compensated AIGFP for the difference between the actual amount of collateral that AIGFP 
+had previously paid to the counterparties and the fair market value of the CDOs as of October 31, 
+2008.    
+ 
+20 
+ 
+ 
+Federal Reserve and FRBNY Did Not Initially Disclose 
+Information on the Counterparties or Their Decision to Pay 
+Effectively at Par Value  
+ 
+Despite having made the decision to pay the counterparties effectively par value, the Federal 
+Reserve and FRBNY made an initial decision not to reveal the identities of AIG’s counterparties 
+or the amount of individual payments.  On March 5, 2009, Federal Reserve Vice Chairman Kohn 
+testified before Congress about the decision to pay effectively par value to the counterparties, but 
+refused to reveal the identities of the counterparties or payments made.  At the hearing, Senator 
+Christopher Dodd pressed for disclosure of AIG’s credit default swap counterparties during a 
+Senate Banking, Housing and Urban Affairs Committee hearing.  Senator Dodd stated, “[t]his 
+Committee would like to know, and the taxpayers certainly have a right to know who they are 
+effectively funding and how much money has already been given.  Again, AIG’s trading partners 
+are not innocent victims here.  They were sophisticated investors who took enormous 
+irresponsible risks with the blessing of AIG's AAA rating.”  Vice Chairman Kohn, however, 
+expressed his judgment that “giving the names would undermine the stability of the company 
+and could have serious knock-on effects to the rest of the financial markets and the government’s 
+efforts to stabilize them.”   
+ 
+Ten days following the Senate hearing, and approximately four months after the first of Maiden 
+Lane III’s payments to counterparties, AIG, in consultation with the Federal Reserve, released 
+the identity of the counterparties, as indicated in Table 2.  On April 28, 2009, FRBNY provided 
+further information about Maiden Lane III on its website.  The information on the website 
+includes a transaction overview, a portfolio breakdown by investment type, and ratings and 
+vintage information on the CDO securities included in the portfolio.  It does not appear that the 
+disclosures had any of the negative consequences that Vice Chairman Kohn anticipated on AIG 
+or on the markets generally. 
+ 
+Value of the Maiden Lane III Portfolio of CDOs 
+ 
+It remains to be seen what the ultimate financial costs and benefits of the Maiden Lane III 
+transaction will be for the American taxpayers.  AIG did not file for bankruptcy and has been 
+able to significantly address its liquidity issues after Maiden Lane III. 
+ 
+The FRBNY has an outstanding recourse loan on its balance sheet to Maiden Lane III for the 
+purchase of the CDOs.28  As of November 4, 2009, the value of the CDO portfolio held by 
+Maiden Lane III had a current market value of $23.2 billion, while the balance of principal and 
+interest owed to the FRBNY on its loans to Maiden Lane III, after accounting for payments 
+already made on the loan, was approximately $19.3 billion.  This loan balance, which is lower 
+than the original extension of credit to AIG, reflects $5.3 billion in repayments that FRBNY has 
+received over the first year of its loan to Maiden Lane III.  FRBNY told SIGTARP that these 
+repayments are consistent with FRBNY’s expectations at the time that it entered into the 
+                                                 
+28 The loan is a recourse loan to the assets held by Maiden Lane III. 
+21 
+ 
+ 
+transaction.  The Federal Reserve’s assessment is that the Maiden Lane III portfolio will generate 
+enough cash flow to repay the FRBNY’s senior loan in full. 
+ 
+When FRBNY authorized the creation of Maiden Lane III in November 2008, it lent 
+approximately $24.6 billion to the newly formed limited liability company, and AIG provided 
+Maiden Lane III approximately $5 billion in equity.  These funds were used to purchase CDOs 
+from AIG counterparties worth an estimated fair value of $29.6 billion at the time of the 
+purchases, which were done in three stages on November 25, 2008, December 18, 2008, and 
+December 22, 2008.  AIGFP’s counterparties were paid $27.1 billion, and AIGFP was paid $2.5 
+billion per an agreement between AIGFP and FRBNY. The $2.5 billion represented the amount 
+of collateral that AIGFP had previously paid to the counterparties that was in excess of the actual 
+decline in the fair value as of October 31, 2008. 
+ 
+FRBNY’s loan to Maiden Lane III is secured by the CDOs as the underlying assets.29  After the 
+loan has been repaid in full plus interest, and, to the extent that there are sufficient remaining 
+cash proceeds, AIG will be entitled to repayment of the $5 billion that the company contributed 
+in equity, plus accrued interest.30 After repayment in full of the loan and the equity contribution 
+(each including accrued interest), any remaining proceeds will be split 67 percent to FRBNY and 
+33 percent to AIG. 
+ 
+Approximately 70 percent of the multi-sector CDOs purchased by Maiden Lane III were based 
+on pools of subprime mortgages,31 Alt-A mortgages, and other residential mortgage-backed 
+securities (“RMBS”), as shown in Figure 2 below.  The portfolio contained 89 CDOs at the time 
+of closing. The overwhelming majority of the investments are made up of Super Senior tranches.  
+The Super Senior tranches are the highest-rated tranches in the CDO. 32 
+ 
+                                                 
+29 The loan was issued with a stated term of six years and may be extended at FRBNY’s discretion. The interest rate 
+on the loan is one-month LIBOR plus 1 percent.   
+30 Interest accrues at a rate of one-month LIBOR plus 3 percent. 
+31 A subprime mortgage is a type of mortgage for borrowers with lower credit scores. Conventional mortgages are 
+not offered to borrowers with low credit scores because the lender views the borrower as having a larger-than-
+average risk of defaulting on the loan.  Alt-A loans are a classification of mortgages in which the risk profile falls 
+between prime and subprime. The borrowers behind these mortgages will typically have clean credit histories, but 
+the mortgage itself will generally have some issues that increase its risk profile, including higher loan-to-value and 
+debt-to-income ratios or inadequate documentation of the borrower's income.  
+32 A Super Senior tranche is defined as a layer of credit risk senior to one or more risk layers that have been rated 
+AAA by the credit rating agencies, or if the transaction is not rated, structured to the equivalent thereto. 
+22 
+ 
+ 
+Figure 2: Maiden Lane III Multi-sector CDO Portfolio 
+ 
+Source:  SIGTARP analysis of FRBNY data 
+Notes: 
+ a Inner-CDOs, or CDO-squared, is a CDO backed by other CDO tranches. 
+b Commercial Mortgage-backed Securities are financial instruments that are backed by a mortgage or a group of 
+mortgages that are packaged together. These securities are often backed by commercial real estate loans. 
+c Mortgage-related assets refers to different types of residential mortgages. 
+ 
+FRBNY officials noted that because of the structure of the Maiden Lane III transaction, there are 
+two sources of repayment for the funds that were used to compensate AIG’s counterparties from 
+the time of the Federal Reserve’s intervention.  One is repayment to FRBNY of the loan it made 
+to Maiden Lane III through cash flows on the assets in the Maiden Lane III portfolio.  The other 
+is AIG’s repayment to FRBNY of the funds it borrowed under its credit facility to meet its 
+collateral posting obligations under the credit default swaps that were torn up as part of the 
+Maiden Lane III transaction. 
+The fair market value has changed since the time of purchase as shown below: 
+• As of December 31, 2008, the fair value of the portfolio was $27.1 billion. 
+• As of March 31, 2009, the fair value of the portfolio was $20.7 billion. 
+• As of June 30, 2009, the fair market value of the portfolio was $22.4 billion. 
+• As of September 30, 2009, the fair market value of the portfolio was $23.5 billion. 
+The value of the portfolio over time has been affected, in part, by the amortization of assets in 
+the portfolio as those assets have generated cash flows to pay down the loan extended by the 
+FRBNY.  As of September 30, 2009, the balance of principal and interest owed to the FRBNY in 
+respect of its senior loan was $19.9 billion.  
+23 
+ 
+ 
+FRBNY has material asset and investment management control rights over the portfolio and is 
+the managing member of Maiden Lane III LLC.  FRBNY as lender to Maiden Lane III has a first 
+priority security interest in all of the Maiden Lane III assets.  FRBNY is also the controlling 
+party for Maiden Lane III, with the right to make all decisions with respect to the assets whether 
+or not there has been a default under the loan.  FRBNY has created an Investment Committee of 
+senior staff that is responsible for the investment management of Maiden Lane III.  The 
+investment committee is made up of senior FRBNY staff, and their primary strategy is to 
+maximize the cash flows without disrupting the financial market.  
+According to an Investment Committee member, performance of the Maiden Lane III portfolio is 
+dependent on the performance of the underlying assets and the resulting cash flows. FRBNY 
+provided SIGTARP with two scenarios for modeling the cash flow performance of the Maiden 
+Lane III portfolio:  a base case modeled on the current performance and a stress case based on 
+more adverse conditions.  FRBNY stressed that these scenarios depend on many factors and have 
+changed and will change over time, with the effect of changing the projected payoff dates. 
+ 
+• In the base case for the FRBNY loan to Maiden Lane III, the principal is expected to be 
+paid by January 2014, and the accrued interest is expected to be paid in 2014.  
+• In the stress case, the principal and the accrued interest will not be fully paid until 2015.  
+ 
+Committee members said that they believe the cash flows received from the CDOs will be 
+sufficient to pay down the loan over time.  
+ 
+24 
+ 
+ 
+Remaining AIG Credit Default Swap Exposure 
+This section discusses AIG’s continuing credit default swap exposure.  Maiden Lane III reduced, 
+but did not eliminate, AIGFP’s exposure to credit default swaps.  AIGFP still had about $302 
+billion in swaps on its books even after Maiden Lane III was created.  An FRBNY senior vice 
+president stated to SIGTARP that FRBNY never considered using Maiden Lane III to resolve 
+positions other than the multi-sector CDO book because the other swaps did not present an 
+urgent problem for AIG. According to AIG’s third quarter 2009 Securities and Exchange 
+Commission (“SEC”) Form 10-Q, AIGFP has been able to reduce its credit default swap 
+exposure by $96 billion or 32 percent during the first nine months of 2009. According to AIG’s 
+Chief Risk Officer and AIGFP’s CEO, AIGFP expects that the majority of its remaining credit 
+default swap contracts will be unwound over the next several years.  However, in recent SEC 
+filings, AIG warned that, if credit markets continue to worsen, AIG could be exposed to these 
+risks for a significantly longer period of time and experience additional losses.  Currently, an 
+onsite management team of FRBNY and Treasury officials is monitoring the financial health and 
+stability of AIG, including the ongoing swap exposure. 
+  
+AIGFP Has Reduced Credit Default Swap Exposure 
+ 
+Since the end of 2008, AIG’s total credit default swap exposure has fallen about 32 percent—
+from about $302 billion to $206 billion, as is shown in Table 4 below.  
+Table 4—Changes to Value of AIGFP’s Credit Default Swap Portfolios between 
+December 31, 2008, and September 30, 2009 (dollars in millions)a 
+Type of Credit Default Swap 
+Portfolio 
+December 31,
+2008 March 31,2009 June 30,2009 
+September 30, 
+2009
+Foreign Regulatory Capital 234,449 192,554 177,473 171,704
+Arbitrage 63,051 61,585 50,092 30,751
+Mezzanine tranches 4,701 4,217 3,501 3,504
+Total $302,201 $258,356 $231,066 $205,959
+% decrease since 2008 (15%) (24%) (32%)
+Source: SIGTARP analysis of AIG data  
+a Dates referenced are as of the last day of each calendar quarter. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+25 
+ 
+ 
+As of September 30, 2009, AIG had $172 billion in exposure to swaps in its foreign regulatory 
+capital portfolio.  The portfolio contains swaps purchased by financial institutions, principally in 
+Europe, to provide regulatory capital relief under Basel I. 33  AIGFP’s COO informed SIGTARP 
+in July 2009 that they expect that most of these swaps will be terminated by the end of the first 
+quarter 2010 as most financial institutions complete their transition to Basel II.  Currently, 
+financial institutions are required to hold a certain level of capital against their assets, and one 
+way for a financial institution to reduce the amount of capital is to purchase swap protection on 
+its assets.  However, new requirements decrease the level of capital required for such assets and, 
+in most cases, there will be limited capital benefit to holding on to the existing swaps. 
+Nonetheless, AIG warned in a June 29, 2009, SEC filing that if credit markets deteriorate, the 
+company may recognize unrealized losses in AIGFP’s regulatory capital credit default swap 
+portfolio.34  AIG could continue to be at risk if the swaps in its regulatory capital portfolio are 
+not terminated by the end of first quarter 2010 as expected. 
+ 
+As of September 30, 2009, AIGFP had approximately $22.6 billion in its synthetic investment 
+grade corporate arbitrage credit default swaps portfolio and $8.2 billion in its synthetic multi-
+sector CDO credit default swap portfolio.  In addition, as of September 30, 2009, a total of $3.5 
+billion exposure on mezzanine tranches remains across different types of collateral classes. 
+ 
+According to an AIG SEC filing, an ongoing concern for AIGFP is whether it will have to post 
+more collateral if credit markets continue to deteriorate.  The amount of future collateral postings 
+is partly a function of AIG’s credit ratings, which may be affected by any further decline in 
+AIG’s financial condition.  Given the current economic climate, AIGFP is unable to estimate 
+accurately when it will be able to retire fully its credit default swap portfolio. 
+ 
+FRBNY, Treasury and AIG Are Monitoring AIGFP’s 
+Remaining Exposure 
+ 
+FRBNY has established an oversight team to monitor AIGFP progress in unwinding the 
+remaining swap transactions, in consultation with the staff of the Federal Reserve Board.  The 
+team is comprised of senior vice presidents, attorneys from the Office of General Counsel, and 
+other staff.  FRBNY officials told SIGTARP that they receive daily risk reports from AIG and 
+attend weekly meetings in which they discuss the details of the AIGFP credit default swap 
+portfolio.  Treasury officials also receive these reports. 
+ 
+                                                 
+33 The first Basel Accord, known as Basel I, was issued in 1988; it focused on the capital adequacy of financial 
+institutions. The capital adequacy risk—the risk that a financial institution will be hurt by an unexpected loss—
+categorizes the assets of financial institution into five risk categories (0 percent, 10 percent, 20 percent, 50 percent, 
+and 100 percent). Banks that operate internationally are required to have a risk weight of 8 percent or less. The 
+second Basel Accord, known as Basel II, is to be fully implemented by 2015. It focuses on three main areas known 
+as the three pillars: minimum capital requirements, supervisory review, and market discipline. The focus of this 
+accord is to strengthen international banking requirements and to supervise and enforce these requirements. 
+34 AIG SEC Form 8-Ka, filed June 29, 2009. Subsequent to the June filing, European regulators adjusted the 
+implementation timing of Basel II, potentially affecting the holders of AIGFP’s regulatory capital swaps to hold 
+beyond previously anticipated termination dates. 
+26 
+ 
+ 
+AIGFP has also established various committees to ensure that the remaining swaps are 
+terminated on terms most favorable to and in the interest of the U.S. government, as described 
+below.  These meetings are observed by a senior member of the FRBNY oversight team.   
+• The Termination Risk Review Committee, made up of AIGFP traders and risk 
+management staff, meets weekly to review AIGFP’s positions. 
+• The Risk Oversight Transaction Committee, made up of senior traders and risk 
+management staff, meets as needed to review and approve swap trades. 
+• The Steering Committee, made up of senior AIG and AIGFP staff (including the CEO 
+and COO of AIGFP), meets weekly or on an ad hoc basis to review the credit default 
+swap portfolio.  These meetings are observed by the FRBNY oversight team. 
+ 
+27 
+ 
+ 
+Conclusions and Lessons Learned 
+Conclusions 
+ 
+When first confronted with the liquidity crisis at AIG, the Federal Reserve Board and FRBNY, 
+who were then contending with the demise of Lehman Brothers, turned to the private sector to 
+arrange and provide funding to stave off AIG’s collapse.  Confident that a private sector solution 
+would be forthcoming, FRBNY did not develop a contingency plan; when private financing fell 
+through, FRBNY was left with little time to decide whether to rescue AIG and, if so, on what 
+terms.  Having witnessed the dramatic economic consequences of Lehman Brothers’ bankruptcy 
+just hours before, senior officials at the Federal Reserve and Treasury determined that an AIG 
+bankruptcy would have far greater systemic impact on the global financial system than Lehman’s 
+bankruptcy and decided to step in to prevent that result.  Not preparing an alternative to private 
+financing, however, left FRBNY with little opportunity to fashion appropriate terms for the 
+support, and believing it had no time to do otherwise, it essentially adopted the term sheet that 
+had been the subject of the aborted private financing discussions (an effective interest rate in 
+excess of 11 percent and an approximate 80 percent ownership interest in AIG), albeit in return 
+for $85 billion in FRBNY financing rather than the $75 billion that had been contemplated for 
+the private deal.  In other words, the decision to acquire a controlling interest in one of the 
+world’s most complex and most troubled corporations was done with almost no independent 
+consideration of the terms of the transaction or the impact that those terms might have on the 
+future of AIG.   
+The impact of those terms, however, soon became apparent to FRBNY.  In a matter of days, 
+FRBNY officials recognized that, although the $85 billion credit line permitted AIG to meet 
+billions of dollars of collateral calls and thus avoid an immediate bankruptcy, its terms were 
+unworkable.  Among other things, the interest rate imposed upon AIG was so onerous that, if 
+unaddressed, the burden of servicing the FRBNY financing greatly increased the likelihood that 
+there would be further credit rating downgrades for AIG, a result that FRBNY officials believed 
+would have “devastating” implications for AIG.  For this and other reasons, modification of the 
+original terms thus became inevitable.  One example of such modification was Treasury’s $40 
+billion investment in AIG in November 2008 through the Troubled Asset Relief Program — 
+which was used to pay down the FRBNY loan in part.  Another was termination of a portion of 
+AIG’s credit default swap obligations made possible through the creation of Maiden Lane III.   
+A significant cause of AIG’s liquidity problems stemmed from its obligations to post collateral 
+(cash payments that equaled the drop in value of the securities) in connection with AIGFP’s 
+credit default swap contracts.  To avoid the necessity for AIG to continue to post collateral and to 
+reduce the danger of further rating agency downgrades, by early November 2008, FRBNY 
+decided to create Maiden Lane III, a special purpose vehicle, to retire a portion of AIG’s credit 
+default swap portfolio by purchasing the underlying CDOs from the swap counterparties, which 
+eased pressure on FRBNY’s credit line and transferred the issues with these contracts off of 
+AIG’s balance sheet and on the Federal Reserve’s.  When negotiating the amount of payment for 
+the underlying CDOs, FRBNY contacted by telephone eight of AIG’s largest counterparties over 
+a two-day period and attempted to obtain concessions, or so-called “haircuts,” from the 
+28 
+ 
+ 
+counterparties.  Although one counterparty, UBS, was willing to make a modest 2 percent 
+concession if the other counterparties did so, FRBNY’s attempts to obtain concessions from the 
+others were completely unsuccessful, and FRBNY decided to pay the counterparties the full 
+market value of the CDOs, which, when combined with the already posted collateral, meant that 
+the counterparties were effectively paid full face (or par) value of the credit default swaps, an 
+amount far above their market value at the time.   
+In pursuing these negotiations, FRBNY made several policy decisions that severely limited its 
+ability to obtain concessions from the counterparties:  it determined that it would not treat the 
+counterparties differently, and, in particular, would not treat domestic banks differently from 
+foreign banks — a decision with particular import in light of the reaction of the French bank 
+regulator which refused to allow two French bank counterparties to make concessions; it refused 
+to use its considerable leverage as the regulator of several of these institutions to compel haircuts 
+because FRBNY was acting on behalf of AIG (as opposed to in its role as a regulator); it was 
+uncomfortable interfering with the sanctity of the counterparties’ contractual rights with AIG, 
+which entitled them to full par value; it felt ethically restrained from threatening an AIG 
+bankruptcy because it had no actual plans to carry out such a threat; and it was concerned about 
+the reaction of the credit rating agencies should imposed haircuts be viewed as FRBNY backing 
+away from fully supporting AIG.  Although these were certainly valid concerns, these policy 
+decisions came with a cost — they led directly to a negotiating strategy with the counterparties 
+that even then-FRBNY President Geithner acknowledged had little likelihood of success.  
+ 
+FRBNY’s decision to treat all counterparties equally (which FRBNY officials described as a 
+“core value” of their organization), for example, gave each of the major counterparties (including 
+the French banks) effective veto power over the possibility of a concession from any other party.  
+This approach left FRBNY with few options, even after one of the counterparties indicated a 
+willingness to negotiate concessions.  It also arguably did not account for significant differences 
+among the counterparties, including that some of them  had received very substantial benefits 
+from FRBNY and other Government agencies through various other bailout programs (including 
+billions of dollars of taxpayer funds through TARP), a benefit not available to some of the other 
+counterparties (including the French banks).  It further did not account for the benefits the 
+counterparties received from FRBNY’s initial bailout of AIG, without which they would have 
+likely suffered far reduced payments as well as the indirect consequences of a potential systemic 
+collapse.   
+ 
+Similarly, the refusal of FRBNY and the Federal Reserve to use their considerable leverage as 
+the primary regulators for several of the counterparties, including the emphasis that their 
+participation in the negotiations was purely “voluntary,” made the possibility of obtaining 
+concessions from those counterparties extremely remote.  While there can be no doubt that a 
+regulators’ inherent leverage over a regulated entity must be used appropriately, and could in 
+certain circumstances be abused, in other instances in this financial crisis regulators (including 
+the Federal Reserve) have used overtly coercive language to convince financial institutions to 
+take or forego certain actions.  As SIGTARP reported in its audit of the initial Capital Purchase 
+Program investments, for example, Treasury and the Federal Reserve were fully prepared to use 
+their leverage as regulators to compel the nine largest financial institutions (including some of 
+AIG’s counterparties) to accept $125 billion of TARP funding and to pressure Bank of America 
+to conclude its merger with Merrill Lynch.  Similarly, it has been widely reported that the 
+29 
+ 
+ 
+Government, while arguably acting on behalf of General Motors and Chrysler, took an active 
+role in negotiating substantial concessions from the creditors of those companies.  
+ 
+Questions have been raised as to whether the Federal Reserve intentionally structured the AIG 
+counterparty payments to benefit AIG’s counterparties — in other words that the AIG assistance 
+was in effect a “backdoor bailout” of AIG’s counterparties.  Then-FRBNY President Geithner 
+and FRBNY’s general counsel deny that this was a relevant consideration for the AIG 
+transactions.  Irrespective of their stated intent, however, there is no question that the effect of 
+FRBNY’s decisions — indeed, the very design of the federal assistance to AIG — was that tens 
+of billions of dollars of Government money was funneled inexorably and directly to AIG’s 
+counterparties.  Although the primary intent of the initial $85 billion loan to AIG may well have 
+been to prevent the adverse systemic consequences of an AIG failure on the financial system and 
+the economy as a whole, in carrying out that intent, it was fully contemplated that such funding 
+would be used by AIG to make tens of billions of dollars of collateral payments to the AIG 
+counterparties.  The intent in creating Maiden Lane III may similarly have been the improvement 
+of AIG’s liquidity position to avoid further rating agency downgrades, but the direct effect was 
+further payments of nearly $30 billion to AIG counterparties, albeit in return for assets of the 
+same market value.  Stated another way, by providing AIG with the capital to make these 
+payments, Federal Reserve officials provided AIG’s counterparties with tens of billions of 
+dollars they likely would have not otherwise received had AIG gone into bankruptcy.  
+ 
+Any assessment of the costs of these decisions to the Government and the taxpayer necessarily 
+must look beyond FRBNY’s loan to Maiden Lane III to also take into account both the funds that 
+FRBNY previously loaned to AIG and the subsequent TARP investments.  All of these infusions 
+to AIG are linked inextricably:  more than half the total amounts paid to counterparties in 
+connection with the credit default swap portfolio retired through Maiden Lane III did not come 
+about through the Maiden Lane III CDO purchases, but rather from AIG’s earlier collateral 
+postings that were made possible in part by the original FRBNY loan, which was, in turn, paid 
+down with TARP funds.  Because of this linkage, the ultimate costs to the Government and the 
+taxpayer cannot be measured in isolation.  Stated another way, irrespective of whether FRBNY is 
+made whole on its loan to Maiden Lane III, we will only be able to be determine the ultimate 
+value or cost to the taxpayer after the likelihood of AIG repaying all of its assistance can be more 
+readily determined. 
+ 
+Lessons Learned 
+ 
+The remarkable narrative surrounding the AIG loans and the creation of Maiden Lane III set 
+forth in this audit gives rise to two additional lessons learned.  First, AIG stands as a stark 
+example of the tremendous influence of credit rating agencies upon financial institutions and 
+upon Government decision making in response to financial crises.  In the lead-up to the crisis, 
+the systemic over-rating of mortgage-backed securities by rating agencies was reflected in the 
+similarly over-rated CDOs that underlied AIGFP’s credit default swaps.  Once the financial crisis 
+had come to a head, the credit rating agencies downgrades of AIG itself and of the underlying 
+securities played a significant role in AIG’s liquidity crisis as those downgrades and the related 
+market declines in the securities required AIG to post billions of dollars in collateral.  The threat 
+of further rating agency downgrades due to the onerous terms of the initial FRBNY financing, 
+30 
+ 
+ 
+among other things, led to further Government intervention, including the TARP investment in 
+AIG and the necessity to do something with the swap portfolio, i.e., Maiden Lane III.  And the 
+concern about the reaction of the credit rating agencies played a role in FRBNY’s decision not to 
+pursue a more aggressive negotiating policy to seek concessions from counterparties.  All of 
+these profound effects were based upon the judgments of a small number of private entities that 
+operate, as described in SIGTARP’s October 2009 Quarterly Report, on an inherently conflicted 
+business model and that are subject to minimal regulation.  Without drawing any conclusions 
+about the particular actions taken by the rating agencies in the case of AIG, this report further 
+demonstrates the dramatic influence of these entities on our financial system. 
+ 
+Second, the now familiar argument from Government officials about the dire consequences of 
+basic transparency, as advocated by the Federal Reserve in connection with Maiden Lane III, 
+once again simply does not withstand scrutiny.  Federal Reserve officials initially refused to 
+disclose the identities of the counterparties or the details of the payments, warning that disclosure 
+of the names would undermine AIG’s stability, the privacy and business interests of the 
+counterparties, and the stability of the markets.  After public and Congressional pressure, AIG 
+disclosed the identities.  Notwithstanding the Federal Reserve’s warnings, the sky did not fall; 
+there is no indication that AIG’s disclosure undermined the stability of AIG or the market or 
+damaged legitimate interests of the counterparties.  The lesson that should be learned — one that 
+has been made apparent time after time in the Government’s response to the financial crisis — is 
+that the default position, whenever Government funds are deployed in a crisis to support markets 
+or institutions, should be that the public is entitled to know what is being done with Government 
+funds.  While SIGTARP acknowledges that there might be circumstances in which the public’s 
+right to know what its Government is doing should be circumscribed, those instances should be 
+very few and very far between.  
+31 
+ 
+ 
+Management Comments 
+SIGTARP received official written responses to this report from the Board of Governors of the 
+Federal Reserve and the Federal Reserve Bank of New York (collectively, “Federal Reserve”), 
+and the Department of Treasury (“Treasury”).  The Federal Reserve generally agreed with the 
+information presented in the report but provided some comments about the conclusions and 
+lessons learned.  Treasury concurred with the report’s two lessons learned and also pointed to a 
+third lesson relating to its current legislative efforts to obtain regulatory reform.   
+ 
+Copies of the responses are attached as Appendices D and E. 
+ 
+32 
+ 
+ 
+Appendix A—Scope and Methodology 
+We performed the audit under authority of Public Law 110-343, as amended, which also 
+incorporates the duties and responsibilities of inspectors general under the Inspector General Act 
+of 1978, as amended. The audit reports on payments to AIGFP counterparties.  Our specific 
+objectives were to determine: 
+ 
+• the key events that led to the creation of Maiden Lane III 
+• why counterparty claims were paid at 100 percent of face value 
+• AIGFP’s remaining exposure to credit default swaps 
+ 
+We performed work at the Federal Reserve Board, Federal Reserve Bank of New York, U.S. 
+Treasury Office of Financial Stability, and AIG corporate headquarters in New York.   
+ 
+To determine the key events that led to the creation of Maiden Lane III, we interviewed officials 
+from the FRBNY Office of General Counsel who were involved in the decision-making process, 
+other FRBNY officials and then-FRBNY President Timothy Geithner. We also interviewed 
+officials from BlackRock Solutions who advised FRBNY on solutions to remove AIG’s toxic 
+assets.  We reviewed congressional testimony by key FRBNY and AIG officials, as well as 
+correspondence and other documents from FRBNY.   
+ 
+To determine why counterparty claims were paid at 100 percent of face value, we interviewed   
+FRBNY officials from the Office of General Counsel who were involved in making the decision 
+to pay at face value. We also reviewed correspondence and documents provided by FRBNY.  
+Furthermore, we interviewed the Chief Financial Officer of Goldman Sachs and a managing 
+director of Merrill Lynch to obtain their views on FRBNY efforts to negotiate concessions and 
+the rationale for paying counterparty claims at 100 percent of face value.  
+ 
+To determine the AIGFP’s remaining credit default swap exposure, we reviewed AIG SEC 
+filings that report AIG’s exposure on a quarterly basis.  We also reviewed these SEC filings to 
+gain an understanding of the details of AIG’s credit default swap exposure.   Furthermore, we 
+interviewed the CEO of AIGFP, AIG’s Chief Credit Officer, and several officials from the 
+Office of Compliance to determine their plans for unwinding the remaining credit default swaps.   
+ 
+This performance audit was performed in accordance with generally accepted government 
+auditing standards. Those standards require that we plan and perform the audit to obtain 
+sufficient, appropriate evidence to provide a reasonable basis for our findings and conclusions 
+based on our audit objectives. We believe that the evidence obtained provides a reasonable basis 
+for our findings and conclusions based on our audit objectives. 
+Limitations on Data 
+We reviewed email correspondence among FRBNY officials during the key months of 
+September through November of 2009.  However, because much of the communication among 
+33 
+ 
+ 
+decision-making officials was via telephone during these dates, we relied on testimonial 
+evidence from these officials to develop an understanding of the key events and decision-making 
+processes during the AIG crisis.  
+ 
+Internal Controls 
+ 
+As part of our review of the decision making process for providing assistance to AIG and paying 
+the counterparties at par, we examined the government’s criteria and rationale behind these 
+decisions as a measure of controls over the decisions of Federal Reserve and Treasury.  
+Use of Computer-Processed Data 
+We relied on AIG’s quarterly and annual filings with the U.S. Securities and Exchange 
+Commission.  That information is generally regarded as best representing the institutions’ 
+financial standings because they are required by law to submit these financial documents.
+34 
+ 
+ 
+ Appendix B—Acronyms 
+Acronym Definition 
+AIG American International Group 
+AIGFP American International Group Financial Products, Inc. 
+CDO collateralized debt obligation 
+CEO 
+CFO 
+Chief Executive Officer 
+Chief Financial Officer 
+CMBS Commercial Mortgage-backed Security 
+EESA Emergency Economic Stabilization Act of 2008 
+FRB Federal Reserve Board 
+FRBNY Federal Reserve Board of New York 
+LIBOR London Interbank Offered Rate 
+MBS Mortgage-backed Securities 
+S&P Standard & Poor’s 
+SIGTARP Special Inspector General for the Troubled Asset Relief Program 
+SPV special purpose vehicle 
+TARP Troubled Asset Relief Program 
+Treasury U.S. Department of the Treasury 
+35 
+ 
+ 
+Appendix C—Audit Team Members 
+This report was prepared and the review was conducted under the direction of Barry Holman, 
+Audit Director, Office of the Special Inspector General for the Troubled Asset Relief Program. 
+The staff members who conducted the audit and developed the report include:  
+Leah DeWolf 
+Michael Kennedy 
+Christopher G. Poor 
+Amy Poster 
+36 
+ 
+ 
+Appendix D—Management Comments from 
+Federal Reserve  
+ 
+37 
+ 
+ 
+ 
+ 
+ 
+38 
+ 
+ 
+ 
+ 
+ 
+39 
+ 
+ 
+ 
+40 
+ 
+ 
+Appendix E—Management Comments from 
+Treasury 
+ 
+ 
+41 
+ 
+ 
+42 
+ 
+ 
+ 
+SIGTARP Hotline 
+If you are aware of fraud, waste, abuse, mismanagement, or misrepresentations associated with the 
+Troubled Asset Relief Program, please contact the SIGTARP Hotline. 
+By Online Form:   www.SIGTARP.gov        By Phone:  Call toll free: (877) SIG-2009 
+By Fax: (202) 622-4559 
+By Mail: Hotline: Office of the Special Inspector General 
+for the Troubled Asset Relief Program 
+1801 L Street., NW, 6th Floor 
+Washington, D.C. 20220 
+ 
+Press Inquiries 
+ 
+If you have any inquiries, please contact our Press Office:  
+Kristine Belisle  
+Director of Communications 
+Kris.Belisle@do.treas.gov 
+202-927-8940 
+ 
+Legislative Affairs 
+ 
+For Congressional inquiries, please contact our Legislative Affairs Office:  
+Lori Hayman 
+        Legislative Afairs 
+        Lori.Hayman@do.treas.gov 
+        202-927-8941 
+ 
+Obtaining Copies of Testimony and Reports 
+ 
+To obtain copies of testimony and reports, please visit our website at www.sigtarp.gov. 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 

@@ -1,2 +1,4 @@
 python-documentcloud==3.0.4
 requests
+python-dotenv
+nltk
