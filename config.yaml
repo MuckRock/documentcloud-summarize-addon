@@ -1,7 +1,7 @@
 # The title is the title of your Add-On
 title: Summarize
 # The description will be shown above the form when activating the Add-On
-description: This add-on will provide a short summary of each document you run it on in a text reprt.
+description: This add-on will provide a short summary of each document you run it on in a text report.
 # Top level type should always be object
 type: object
 # How does this add-on accept documents
@@ -9,3 +9,4 @@ type: object
 documents:
   # By the currently selected documents
   - selected
+properties:
