@@ -10,3 +10,6 @@ documents:
   # By the currently selected documents
   - selected
 properties:
+  name:
+    title: Report name
+    type: string
