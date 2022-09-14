@@ -9,66 +9,7 @@ DocumentCloud using the standard API
 
 from documentcloud.addon import AddOn
 import os
-import heapq
-import re
-from collections import defaultdict
-from dotenv import load_dotenv
-
-load_dotenv()
-print('NLTK_DATA', os.environ['NLTK_DATA'])
-# .env needs to be loaded before importing nltk so that it knows
-# where to look for data.
-import nltk
-
-stopwords = nltk.corpus.stopwords.words('english')
-
-alphanumeric_re = re.compile("\w+")
-
-# https://stackabuse.com/text-summarization-with-nltk-in-python/
-# https://towardsdatascience.com/simple-text-summarization-in-python-bdf58bfee77f
-def summarize(text, max_sent_length = 30):
-  print("Calculating word frequencies.")
-  word_frequencies = {}
-  word_counts = defaultdict(int)
-  max_count = 1
-
-  for word in nltk.word_tokenize(text):
-    word = word.lower()
-    if word not in stopwords and alphanumeric_re.match(word):
-      word_counts[word] += 1
-
-      if word_counts[word] > max_count:
-        max_count = word_counts[word]
-        #print(f"{word}: {max_count}")
-
-  for word in word_counts:
-    word_frequencies[word] = (word_counts[word]/max_count)
-
-  print("Scoring sentences.")
-  sentence_list = nltk.sent_tokenize(text)
-
-  sentence_scores = defaultdict(int)
-  for sent in sentence_list:
-    approx_word_count = len(sent.split(' '))
-    # TODO: Filter syntactically invalid sentences.
-    if approx_word_count > max_sent_length or approx_word_count < 2:
-      continue
-    for word in nltk.word_tokenize(sent.lower()):
-      if word in word_frequencies:
-        sentence_scores[sent] = sentence_scores[sent] + word_frequencies[word]
-
-  summary_sentences = heapq.nlargest(5, sentence_scores, key=sentence_scores.get)
-  summary_sentences = [
-    sent.replace("\n", " ").replace("  ", " ").strip() for sent in summary_sentences
-  ]
-  summary_sentences = [
-    "• " + sent + "\n" for sent in summary_sentences
-  ]
-  summary = ' '.join(summary_sentences)
-
-  print("Summary assembled.")
-
-  return summary
+from summarize import summarize
 
 class Summarize(AddOn):
     """A document summarization Add-On for DocumentCloud."""

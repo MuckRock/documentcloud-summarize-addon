@@ -19,8 +19,8 @@ Here's how you can test this add-on locally.
 - Set up a venv: `python3.9 -m venv venv` then `source venv/bin/activate`.
 - Install `pytest`: `pip install -U pytest`.
 - Install the production dependencies: `pip install -r requirements.txt`.
-- Run the tests: `pytest -s`.
-  - There's a single unit test right now that runs the core `summarize()` function on some example text and makes sure that something comes back. Look at the stdout output of the test in the terminal to make sure that the summary looks reasonable.
+- Try running it locally: `python tools/try-summarize.py`.
+  - Look at the stdout output of the test in the terminal to make sure that the summary looks reasonable.
 
 # How it works
 
