@@ -1,4 +1,5 @@
 import pdb
+import math
 from sklearn.cluster import KMeans
 import numpy as np
 from annoy import AnnoyIndex
@@ -26,7 +27,12 @@ def summarize(text, max_sent_length = 30):
   if len(sentence_embeddings) < 1:
     return # TODO: Raise error.
   #print(sentence_embeddings)
-  kmeans = KMeans(random_state=0, n_clusters=5).fit(sentence_embeddings)
+  n_clusters = math.floor(len(sentence_embeddings)/20)
+  if n_clusters < 3:
+    n_clusters = 3
+  if n_clusters > 9:
+    n_clusters = 9
+  kmeans = KMeans(random_state=0, n_clusters=n_clusters).fit(sentence_embeddings)
   print("cluster_centers_", kmeans.cluster_centers_)
 
   vector_size = len(sentence_embeddings[0])
@@ -36,6 +42,7 @@ def summarize(text, max_sent_length = 30):
     t.add_item(i, sentence_embeddings[i])
   t.build(10)
   nearest_to_centroids = [t.get_nns_by_vector(centroid, 1) for centroid in kmeans.cluster_centers_]
+  nearest_to_centroids.sort()
   print(nearest_to_centroids)
   t.unload()
 

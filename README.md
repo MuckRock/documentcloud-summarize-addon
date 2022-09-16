@@ -9,8 +9,9 @@ From the project root directory:
 - Set up a virtual environment with `python3.9 -m venv venv`.
 - Create a `.env` file with Put `NLTK_DATA=nltk_data` in it.
 - Put your DocumentCloud credentials in `.env` as `USER` and `PASSWORD`. (Keep your `.env` safe.)
-- Run `venv/bin/pip install -r requirements.text`.
+- Run `venv/bin/pip install -r requirements.txt`.
 - Run `make install-nltk`.
+- To run the local server: `pip install -U flask`, then `flask run`.
 
 # Testing
 
