@@ -1,21 +1,26 @@
 import pdb
 import math
-from sklearn.cluster import KMeans
 import numpy as np
 from annoy import AnnoyIndex
 from dotenv import load_dotenv
 load_dotenv()
 import nltk
 import spacy
+from nltk.cluster import KMeansClusterer, cosine_distance
+
 nlp = spacy.load('en_use_lg')
 
 #nlp.add_pipe('universal_sentence_encoder', config={'enable_cache': False})
 nlp.replace_pipe('universal_sentence_encoder', 'universal_sentence_encoder', config={'enable_cache': False})
 
+sentence_to_cluster_ratio = 40
+max_clusters = 5
+min_clusters = 1
+sentences_to_pick_per_cluster = 1
+
 # Can GitHub Actions actually run tensorflow stuff?
 
-# https://stackabuse.com/text-summarization-with-nltk-in-python/
-# https://towardsdatascience.com/simple-text-summarization-in-python-bdf58bfee77f
+# TODO: Cache summaries.
 def summarize(text, max_sent_length = 30):
   sentence_list = nltk.sent_tokenize(text)
   if len(sentence_list) < 1:
@@ -27,13 +32,16 @@ def summarize(text, max_sent_length = 30):
   if len(sentence_embeddings) < 1:
     return # TODO: Raise error.
   #print(sentence_embeddings)
-  n_clusters = math.floor(len(sentence_embeddings)/20)
-  if n_clusters < 3:
-    n_clusters = 3
-  if n_clusters > 9:
-    n_clusters = 9
-  kmeans = KMeans(random_state=0, n_clusters=n_clusters).fit(sentence_embeddings)
-  print("cluster_centers_", kmeans.cluster_centers_)
+  n_clusters = math.floor(len(sentence_embeddings)/sentence_to_cluster_ratio)
+  if n_clusters < min_clusters:
+    n_clusters = min_clusters
+
+  clusterer = KMeansClusterer(n_clusters, cosine_distance, repeats=2)
+  clusters_for_indexes = clusterer.cluster(sentence_embeddings, True)
+  print("clusters_for_indexes", clusters_for_indexes)
+  centroids = clusterer.means()
+  print("centroid count", len(centroids))
+  print("cluster count", clusterer.num_clusters())
 
   vector_size = len(sentence_embeddings[0])
 
@@ -41,7 +49,11 @@ def summarize(text, max_sent_length = 30):
   for i in range(len(sentence_embeddings)):
     t.add_item(i, sentence_embeddings[i])
   t.build(10)
-  nearest_to_centroids = [t.get_nns_by_vector(centroid, 1) for centroid in kmeans.cluster_centers_]
+
+  nearest_to_centroids = [
+    t.get_nns_by_vector(centroid, sentences_to_pick_per_cluster)
+    for centroid in centroids
+  ]
   nearest_to_centroids.sort()
   print(nearest_to_centroids)
   t.unload()
