@@ -35,6 +35,8 @@ def summarize(text, max_sent_length = 30):
   n_clusters = math.floor(len(sentence_embeddings)/sentence_to_cluster_ratio)
   if n_clusters < min_clusters:
     n_clusters = min_clusters
+  if n_clusters > max_clusters:
+    n_clusters = max_clusters
 
   clusterer = KMeansClusterer(n_clusters, cosine_distance, repeats=2)
   clusters_for_indexes = clusterer.cluster(sentence_embeddings, True)
