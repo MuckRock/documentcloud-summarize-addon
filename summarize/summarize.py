@@ -14,8 +14,10 @@ nlp.replace_pipe('universal_sentence_encoder', 'universal_sentence_encoder', con
 
 # Can GitHub Actions actually run tensorflow stuff?
 
-# https://stackabuse.com/text-summarization-with-nltk-in-python/
-# https://towardsdatascience.com/simple-text-summarization-in-python-bdf58bfee77f
+sentence_to_cluster_ratio = 40
+max_clusters = 5
+min_clusters = 1
+
 def summarize(text, max_sent_length = 30):
   sentence_list = nltk.sent_tokenize(text)
   if len(sentence_list) < 1:
@@ -26,24 +28,27 @@ def summarize(text, max_sent_length = 30):
   sentence_embeddings = [ get_vector(sentence) for sentence in sentence_list]
   if len(sentence_embeddings) < 1:
     return # TODO: Raise error.
-  #print(sentence_embeddings)
-  n_clusters = math.floor(len(sentence_embeddings)/20)
-  if n_clusters < 3:
-    n_clusters = 3
-  if n_clusters > 9:
-    n_clusters = 9
+  #print(sentence_embeddings[3])
+  n_clusters = math.floor(len(sentence_embeddings)/sentence_to_cluster_ratio)
+  if n_clusters < min_clusters:
+    n_clusters = min_clusters
+  if n_clusters > max_clusters:
+    n_clusters = max_clusters
+
+  # sklearn kmeans uses only Euclidean distance as its metric. However, with normalized
+  # vectors, Euclidean has similar results to angular distance.
   kmeans = KMeans(random_state=0, n_clusters=n_clusters).fit(sentence_embeddings)
-  print("cluster_centers_", kmeans.cluster_centers_)
+  #print("cluster_centers_", kmeans.cluster_centers_)
 
   vector_size = len(sentence_embeddings[0])
 
-  t = AnnoyIndex(vector_size, 'angular')
+  t = AnnoyIndex(vector_size, 'euclidean')
   for i in range(len(sentence_embeddings)):
     t.add_item(i, sentence_embeddings[i])
   t.build(10)
   nearest_to_centroids = [t.get_nns_by_vector(centroid, 1) for centroid in kmeans.cluster_centers_]
   nearest_to_centroids.sort()
-  print(nearest_to_centroids)
+  #print(nearest_to_centroids)
   t.unload()
 
   centroid_sentences = [
