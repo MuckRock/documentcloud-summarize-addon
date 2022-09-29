@@ -17,8 +17,7 @@ nlp.replace_pipe('universal_sentence_encoder', 'universal_sentence_encoder', con
 
 # TODO: Use \w minus digits to cover non-English languages.
 real_word_regex = re.compile(r'[a-zA-Z]+')
-# TODO: Parameterize
-sentence_to_cluster_ratio = 30
+
 max_clusters = 7
 min_clusters = 3
 sentences_to_pick_per_cluster = 1
@@ -26,7 +25,7 @@ sentences_to_pick_per_cluster = 1
 # Can GitHub Actions actually run tensorflow stuff?
 
 # TODO: Cache summaries.
-def summarize(text, max_sent_words = 50, min_sent_words = 3):
+def summarize(text, max_sent_words = 50, min_sent_words = 3, sentence_to_cluster_ratio = 30):
   sentence_list = nltk.sent_tokenize(text)
   sentence_list = [sent for sent in sentence_list if real_word_regex.search(sent)]
   if len(sentence_list) < 1:

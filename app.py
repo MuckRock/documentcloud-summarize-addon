@@ -18,7 +18,10 @@ def index():
             flash('Content is required!')
         else:
             flash('Starting summarization…')
-            summary = summarize(content)
+            summary = summarize(
+              content,
+              sentence_to_cluster_ratio = int(request.form['sentence_to_cluster_ratio'])
+            )
             return redirect(url_for('index'))
 
     return render_template('index.html', summary=summary)
