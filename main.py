@@ -9,7 +9,7 @@ DocumentCloud using the standard API
 
 from documentcloud.addon import AddOn
 import os
-from summarize import summarize
+from summarize.summarize import summarize
 
 class Summarize(AddOn):
     """A document summarization Add-On for DocumentCloud."""
