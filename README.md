@@ -25,20 +25,13 @@ Here's how you can test this add-on locally.
 
 # How it works
 
-The code is in `main.py` and implements a strategy for text summarization described in these two articles, with some additional filtering to remove likely noise:
-
-https://stackabuse.com/text-summarization-with-nltk-in-python/
-https://towardsdatascience.com/simple-text-summarization-in-python-bdf58bfee77f
-
 Here are the steps the add-on executes when summarizing:
 
-- The text is broken up into words.
-- The frequency of each word in the text is calculated.
-    - Words unlikely to be "real" words (words that are stopwords or are without alphanumeric characters or other indicators) are ignored.
 - The text is broken up into sentences.
-- Each sentence is scored by the total frequency of the words in it.
-  - Sentences with too many words to be likely to be a real sentence (possibly a misparsing by NLTK) are ignored.
-- The five sentences with the highest scores are selected.
-- The sentences are formatted and returned as the summary.
+- Each sentence is encoded into an embedding (a vector) via the [Universal Sentence Encoder](https://www.tensorflow.org/hub/tutorials/semantic_similarity_with_tf_hub_universal_encoder).
+- The embeddings are put into [K-means clusters](https://en.wikipedia.org/wiki/K-means_clustering).
+- The nearest neighbor embeddings to the centroids are collected.
+- Some neighbor embeddings are filtered out if they correspond to sentences that have indicators that they may be garbage.
+- The sentences corresponding to the remaining embeddings are formatted and returned as the summary.
 
 The `summarize` function does the actual summarization, while `Summarize.main` handles getting the text out of the DocumentCloud documents, putting the summaries in a file, and uploading that file to DocumentCloud for the user to read.
