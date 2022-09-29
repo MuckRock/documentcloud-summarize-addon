@@ -1,0 +1,21 @@
+<html>
+<body>
+<form method="post">
+    <label for="content">Document to summarize</label>
+    <br>
+    <textarea name="content"
+              placeholder="Message content"
+              rows="15"
+              cols="60"
+              >{{ request.form['content'] }}</textarea>
+    <br>
+    <label for="sentence_to_cluster_ratio">(Aspirational) source sentence to summary sentence ratio</label>
+    <input name="sentence_to_cluster_ratio" type="number" value="30">
+    <br>
+    <button type="submit">Submit</button>
+</form>
+
+<h2>Summary</h2>
+<div id="summary">{{ summary.replace('\n', '<br><br>') | safe }}</div>
+</body>
+</html>
