@@ -22,8 +22,6 @@ max_clusters = 5
 min_clusters = 3
 sentences_to_pick_per_cluster = 1
 
-# Can GitHub Actions actually run tensorflow stuff?
-
 # TODO: Cache summaries.
 def summarize(text, max_sent_words = 50, min_sent_words = 3, sentence_to_cluster_ratio = 15):
   sentence_list = nltk.sent_tokenize(text)
@@ -31,7 +29,7 @@ def summarize(text, max_sent_words = 50, min_sent_words = 3, sentence_to_cluster
   if len(sentence_list) < 1:
     return # TODO: Raise error.
 
-  sentence_embeddings = [ get_vector(sentence) for sentence in sentence_list]
+  sentence_embeddings = [get_vector(sentence) for sentence in sentence_list]
   if len(sentence_embeddings) < 1:
     return # TODO: Raise error.
   #print(sentence_embeddings)
