@@ -8,8 +8,8 @@ DocumentCloud using the standard API
 """
 
 from documentcloud.addon import AddOn
-import os
-from summarize.summarize import summarize
+from .summarize.summarize import summarize
+
 
 class Summarize(AddOn):
     """A document summarization Add-On for DocumentCloud."""
@@ -21,7 +21,7 @@ class Summarize(AddOn):
         self.set_message(f"Summarized {document.canonical_url}.")
         return summary
 
-    def main(self, doc_limit = 100):
+    def main(self, doc_limit=100):
         """The main add-on functionality goes here."""
         self.set_message("Starting summarization.")
 
@@ -32,19 +32,21 @@ class Summarize(AddOn):
             else:
                 raise Exception("No documents found to summarize.")
 
-        with open("summaries.txt", "w+") as file_:
-          docs_summarized = 0
-          for document in doc_list:
-              self.add_summary(document, file_)
-              docs_summarized += 1
-              if docs_summarized >= doc_limit:
-                  break
+        with open("summaries.txt", "w+", encoding="utf-8") as file_:
+            docs_summarized = 0
+            for document in doc_list:
+                self.add_summary(document, file_)
+                docs_summarized += 1
+                if docs_summarized >= doc_limit:
+                    break
 
-          self.upload_file(file_)
+            self.upload_file(file_)
 
         self.set_message("Summarization complete.")
         self.send_mail(
-          "Summarize", f"We summarized: {', '.join([doc.title for doc in doc_list])}")
+            "Summarize", f"We summarized: {', '.join([doc.title for doc in doc_list])}"
+        )
+
 
 if __name__ == "__main__":
     Summarize().main()

@@ -1,7 +1,8 @@
+"""
+A Flask app that routes http requests to summarize().
+"""
 from flask import Flask, render_template, request, url_for, flash, redirect
-import sys
-sys.path.append('/home/jimkang/mr/documentcloud-summarize-addon')
-from summarize.summarize import summarize
+from .summarize.summarize import summarize
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '2af224ae93084a1385c8e8cb4a6724448c548c19891cbb17'
