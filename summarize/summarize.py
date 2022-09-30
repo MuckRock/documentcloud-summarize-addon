@@ -1,6 +1,7 @@
 """
 This does the actual summarizing.
 """
+import re
 import math
 from annoy import AnnoyIndex
 import spacy
@@ -43,10 +44,8 @@ def summarize(text, max_sent_words=50, min_sent_words=3, sentence_to_cluster_rat
     # print(sentence_embeddings)
 
     n_clusters = math.floor(len(sentence_embeddings) / sentence_to_cluster_ratio)
-    if n_clusters < min_clusters:
-        n_clusters = min_clusters
-    if n_clusters > max_clusters:
-        n_clusters = max_clusters
+    n_clusters = max(n_clusters, min_clusters)
+    n_clusters = min(n_clusters, max_clusters)
 
     clusterer = KMeansClusterer(n_clusters, cosine_distance, repeats=2)
     clusters_for_indexes = clusterer.cluster(sentence_embeddings, True)
@@ -57,9 +56,10 @@ def summarize(text, max_sent_words=50, min_sent_words=3, sentence_to_cluster_rat
 
     vector_size = len(sentence_embeddings[0])
 
+    # pylint: disable-next=invalid-name
     t = AnnoyIndex(vector_size, "angular")
-    for i in range(len(sentence_embeddings)):
-        t.add_item(i, sentence_embeddings[i])
+    for i, embedding in enumerate(sentence_embeddings):
+        t.add_item(i, embedding)
     t.build(10)
 
     nearest_to_centroids = [
@@ -105,4 +105,4 @@ def sentence_is_good(sent, min_sent_words, max_sent_words):
     words = nltk.word_tokenize(sent)
     words = [word for word in words if real_word_regex.search(word)]
     word_count = len(words)
-    return word_count >= min_sent_words and word_count <= max_sent_words
+    return min_sent_words <= word_count <= max_sent_words
