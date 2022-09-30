@@ -8,7 +8,7 @@ DocumentCloud using the standard API
 """
 
 from documentcloud.addon import AddOn
-from .summarize.summarize import summarize
+from summarize.summarize import summarize
 
 
 class Summarize(AddOn):
