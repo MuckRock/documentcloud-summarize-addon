@@ -13,3 +13,5 @@ properties:
   name:
     title: Report name
     type: string
+categories:
+  - ai
