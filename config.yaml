@@ -3,6 +3,7 @@ title: Summarize
 # The description will be shown above the form when activating the Add-On
 description: This add-on will provide a short summary of each document you run it on in a text report.
 # Top level type should always be object
+instructions: ''
 type: object
 # How does this add-on accept documents
 # If more than one type is specified, the user will be prompted to choose one
